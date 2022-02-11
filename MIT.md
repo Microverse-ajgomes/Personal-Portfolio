@@ -1,8 +1,8 @@
 ## Copyright 2021, [Ant&oacute;nio Jos&eacute; Gomes](https://www.linkedin.com/in/ajffg1024)
 
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this **Personal Porfolio project** and associated documentation files, to deal in the **Personal Porfolio project** without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the **Personal Porfolio project**, and to permit persons to whom the **Personal Porfolio project** is furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this PORTFOLIO WEBSITE and associated documentation files, to deal in the PORTFOLIO WEBSITE without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the PORTFOLIO WEBSITE, and to permit persons to whom the PORTFOLIO WEBSITE is furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the **Personal Porfolio project**.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the PORTFOLIO WEBSITE.
 
-THE **Personal Porfolio project** IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE **Personal Porfolio project** OR THE USE OR OTHER DEALINGS IN THE [APP TYPE].
+THE PORTFOLIO WEBSITE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE PORTFOLIO WEBSITE OR THE USE OR OTHER DEALINGS IN THE [APP TYPE].

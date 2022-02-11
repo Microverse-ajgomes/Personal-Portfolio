@@ -2,7 +2,7 @@
 
 # Personal Portfolio project
 
-> This project is the Personal Portfolio project.
+> This project is my personal portfolio site.
 
 > [Here is a screenshot](https://projects.microverse.datanet-pt.net/Personal-Portfolio/app_screenshot.png)
 
