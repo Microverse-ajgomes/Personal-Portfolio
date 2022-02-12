@@ -73,12 +73,14 @@ nav {
 
 .flex-box {
   display: flex;
+  align-content: center;
+  justify-content: space-between;
 }
 
 .logo {
-  justify-content: flex-start;
+  */ justify-content: flex-start; */
 }
 
 .nav-bar {
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
 } 
