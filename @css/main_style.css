@@ -73,4 +73,12 @@ nav {
 
 .flex-box {
   display: flex;
+}
+
+.logo {
+  justify-content: flex-start;
+}
+
+.nav-bar {
+  justify-content: flex-end;
 } 
