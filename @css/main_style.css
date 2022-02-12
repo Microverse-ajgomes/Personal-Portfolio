@@ -29,7 +29,7 @@
 ************************************************************************************************************************/
 
 html {
-  background: red;
+  background: withe;
 }
 
 
@@ -43,8 +43,8 @@ title {
 }
 
 body {
-  color: yellow;
-  background-color: #0ff;	/* #00ffff */
+  color: blue;
+  background-color: #fff;	/* #ffffff */
 }
 
 h1 {
@@ -56,3 +56,21 @@ p {
   color: white;
   background-color: #00f;	/* #0000ff */
 }
+
+header {
+  color: white;
+  background-color: blue;
+}
+
+nav {
+  color: white;
+  background-color: grey;
+}
+
+/* ***************
+ *  CSS Classes *
+** **************/
+
+.flex-box {
+  display: flex;
+} 
