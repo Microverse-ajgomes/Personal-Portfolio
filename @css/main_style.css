@@ -67,8 +67,10 @@ nav {
   background-color: grey;
 }
 
-nav ul li {
+nav>ul>li {
   list-style: none;
+  padding-left: 3em;
+  padding-right: 3em;
 }
 
 /* ***************
