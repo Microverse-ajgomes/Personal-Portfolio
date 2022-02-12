@@ -67,6 +67,10 @@ nav {
   background-color: grey;
 }
 
+nav>ul {
+  padding: 0;
+}
+
 nav>ul>li {
   list-style: none;
   padding-left: 3em;
@@ -84,7 +88,7 @@ nav>ul>li {
 }
 
 .logo {
-  */ justify-content: flex-start; */
+  padding: 10px;
 }
 
 .nav-bar {
