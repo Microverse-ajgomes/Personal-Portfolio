@@ -28,6 +28,10 @@
 
 ************************************************************************************************************************/
 
+html {
+  background: white;
+}
+
 html:lang(for-stupid-linters) {
   display: none;
 }
@@ -38,8 +42,8 @@ title {
 }
 
 body {
-  color: yellow;
-  background-color: #0ff;	/* #00ffff */
+  color: blue;
+  background-color: #fff;	/* #ffffff */
 }
 
 h1 {
@@ -50,4 +54,42 @@ h1 {
 p {
   color: white;
   background-color: #00f;	/* #0000ff */
+}
+
+header {
+  color: white;
+  background-color: blue;
+}
+
+nav {
+  color: white;
+  background-color: grey;
+}
+
+nav > ul {
+  padding: 0;
+}
+
+nav > ul > li {
+  list-style: none;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+/* ***************
+ *  CSS Classes *
+** **************/
+
+.flex-box {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 10px;
+}
+
+.nav-bar {
+  /* justify-content: flex-end; */
 }
