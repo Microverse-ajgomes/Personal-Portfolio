@@ -94,6 +94,10 @@ div.main-body {
   min-height: 100vh;
 }
 
+#section_1 > div > ul > li {
+  row-gap: 10px;
+}
+
 /* ***************
  *  CSS Classes *
 ** **************/
@@ -128,6 +132,8 @@ div.main-body {
   display: none;
 }
 
+/* FLEX classes */
+
 .horizontal {
   flex-direction: row;
 }
@@ -135,6 +141,35 @@ div.main-body {
 .vertical {
   flex-direction: column;
 }
+
+.container {
+  justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
+}
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.flex-space-around {
+  justify-content: space-around;
+}
+
+.flex-space-evenly {
+  justify-content: space-evenly;
+}
+
+/* END of FLEX xlasses */
 
 .no-bullet {
   list-style: none;
@@ -152,16 +187,20 @@ div.main-body {
   min-height: 50vh;
 }
 
+.separator {
+  width: 375px;
+  height: 114px;
+}
+
 /* ******* *
  * CSS IDs *
  * ******* */
-
 #section_1 {
   background-image: url("../@images/section-1_background.jpeg");
   background-attachment: scroll;
   background-repeat: no-repeat;
   width: 375px;
-  height: 750px;
+  height: 718px;
 }
 
 #section_2 {
@@ -169,5 +208,5 @@ div.main-body {
   background-attachment: scroll;
   background-repeat: no-repeat;
   width: 375px;
-  height: 750px;
+  height: 718px;
 }
