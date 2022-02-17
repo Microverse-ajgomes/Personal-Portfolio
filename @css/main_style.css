@@ -120,6 +120,10 @@ nav > ul > li {
   /* justify-content: flex-end; */
 }
 
+.main-body {
+  min-height: 50vh;
+}
+
 /* ******* *
  * CSS IDs *
  * ******* */
