@@ -95,7 +95,8 @@ div.main-body {
 }
 
 #section_1 > div > ul > li {
-  row-gap: 10px;
+  column-gap: 20px;
+  padding-left: 0px;
 }
 
 /* ***************
