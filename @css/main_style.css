@@ -28,6 +28,10 @@
 
 ************************************************************************************************************************/
 
+/* *************** *
+ * Basic HTML tags *
+ * *************** */
+
 html {
   background: white;
 }
@@ -47,14 +51,18 @@ body {
 }
 
 h1 {
-  color: white;
-  background-color: #00f;	/* #0000ff */
+  color: inherit;
+  background-color: inherit;
 }
 
 p {
-  color: white;
-  background-color: #00f;	/* #0000ff */
+  color: inherit;
+  background-color: inherit;
 }
+
+/* ******************** *
+ * Semantic HTML 5 tags *
+ * ******************** */
 
 header {
   color: gray;
@@ -65,6 +73,10 @@ nav {
   color: white;
   background-color: grey;
 }
+
+/* ********************* *
+ * Compund CSS Selectors *
+ * ********************* */
 
 nav > ul {
   padding: 0;
@@ -81,8 +93,6 @@ nav > ul > li {
 div.main-body {
   min-height: 100vh;
 }
-
-
 
 /* ***************
  *  CSS Classes *
