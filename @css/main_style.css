@@ -135,25 +135,17 @@ div.main-body {
 #section_1 {
   background-image: url("../@images/section-1_background.jpeg");
   background-attachment: scroll;
-  pading-top: 1em;
-  pading-botton: 1em;
-  pading-left: 1em;
-  pading-right: 1em;
-  border: 2px gold ;
-  min-width: 100%;
-  min-height: 200px;
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 750px;
 }
 
 #section_2 {
   background-image: url("../@images/section-2_background.jpeg");
   background-attachment: scroll;
-  pading-top: 1em;
-  pading-botton: 1em;
-  pading-left: 1em;
-  pading-right: 1em;
-  border: 2px gold ;
-  min-width: 100%;
-  min-height: 200px;
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 750px;
 }
 
 }
