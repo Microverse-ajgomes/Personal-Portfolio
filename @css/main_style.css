@@ -82,6 +82,8 @@ div.main-body {
   min-height: 100vh;
 }
 
+
+
 /* ***************
  *  CSS Classes *
 ** **************/
@@ -122,6 +124,10 @@ div.main-body {
 
 .vertical {
   flex-direction: column;
+}
+
+.no-bullet {
+  list-style: none;
 }
 
 .logo {
