@@ -48,6 +48,8 @@ title {
 body {
   color: blue;
   background-color: #fff;	/* #ffffff */
+  margin: 0px;
+  padding: 0px;
 }
 
 h1 {
