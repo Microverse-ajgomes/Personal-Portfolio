@@ -124,7 +124,7 @@ nav > ul > li {
  * CSS IDs *
  * ******* */
 
-#section-1 {
+#section_1 {
   background-image: url("../@images/section-1_backfround.jpeg");
   background-attachment: scroll;
   pading-top: 1em;
@@ -134,7 +134,7 @@ nav > ul > li {
   border: 2px gold ;
 }
 
-#section-2 {
+#section_2 {
   background-image: url("../@images/section-2_backfround.jpeg");
   background-attachment: scroll;
   pading-top: 1em;
