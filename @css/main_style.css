@@ -48,8 +48,8 @@ title {
 body {
   color: blue;
   background-color: #fff;	/* #ffffff */
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -95,7 +95,7 @@ header {
   color: inherit;
   background-color: inherit;
   position: fixed;
-  margin: 0px;
+  margin: 0;
   padding: 10px;
 }
 
@@ -127,7 +127,7 @@ div.main-body {
 #section_1 > div > ul {
   padding-inline-start: 0px;
   column-gap: 15px;
-  margin: 0px;
+  margin: 0;
 }
 
 #section_1 > div > ul > li {
@@ -178,9 +178,6 @@ div.main-body {
   flex-direction: column;
 }
 
-.container {
-  justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
-}
 .flex-start {
   justify-content: flex-start;
 }
