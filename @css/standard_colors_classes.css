@@ -32,6 +32,11 @@
  * CSS Classes for Standard Colors *
  * ******************************* */
 
+/* Transparent backgroound color */
+.transparent-bg {
+  background-color: transparent;
+}
+
 /* *********************** *
  * Black -- standard color *
  * *********************** */
