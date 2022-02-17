@@ -86,6 +86,14 @@ div.main-body {
  *  CSS Classes *
 ** **************/
 
+.w-375px {
+  width: 375px;
+}
+
+.h-750px {
+  height: 750px;
+}
+
 .flex-box {
   display: flex;
   align-content: center;
