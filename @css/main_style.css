@@ -71,6 +71,8 @@ nav > ul {
 }
 
 nav > ul > li {
+  color: inherit;
+  backgroud-color: inherit;
   list-style: none;
   padding-left: 3em;
   padding-right: 3em;
