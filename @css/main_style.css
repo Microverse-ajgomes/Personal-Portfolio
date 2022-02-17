@@ -88,10 +88,60 @@ nav > ul > li {
   justify-content: space-between;
 }
 
+.block-box {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.invisible {
+  display: none;
+}
+
+.horizontal {
+  flex-direction: row;
+}
+
+.vertical {
+  flex-direction: column;
+}
+
 .logo {
   padding: 10px;
 }
 
 .nav-bar {
   /* justify-content: flex-end; */
+}
+
+/* ******* *
+ * CSS IDs *
+ * ******* */
+
+#section-1 {
+  background-image: url("../@images/section-1_backfround.jpeg");
+  background-attachment: scroll;
+  pading-top: 1em;
+  pading-botton: 1em;
+  pading-left: 1em;
+  pading-right: 1em;
+  border: 2px gold ;
+}
+
+#section-2 {
+  background-image: url("../@images/section-2_backfround.jpeg");
+  background-attachment: scroll;
+  pading-top: 1em;
+  pading-botton: 1em;
+  pading-left: 1em;
+  pading-right: 1em;
+  border: 2px gold ;
+}
+
 }
