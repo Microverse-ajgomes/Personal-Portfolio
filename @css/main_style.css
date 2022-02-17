@@ -28,6 +28,10 @@
 
 ************************************************************************************************************************/
 
+/* *************** *
+ * Basic HTML tags *
+ * *************** */
+
 html {
   background: white;
 }
@@ -44,27 +48,65 @@ title {
 body {
   color: blue;
   background-color: #fff;	/* #ffffff */
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-  color: white;
-  background-color: #00f;	/* #0000ff */
+  color: inherit;
+  background-color: inherit;
+}
+
+h2 {
+  color: inherit;
+  background-color: inherit;
+}
+
+h3 {
+  color: inherit;
+  background-color: inherit;
+}
+
+h4 {
+  color: inherit;
+  background-color: inherit;
 }
 
 p {
-  color: white;
-  background-color: #00f;	/* #0000ff */
+  color: inherit;
+  background-color: inherit;
 }
 
+ul {
+  color: inherit;
+  background-color: inherit;
+}
+
+li {
+  color: inherit;
+  background-color: inherit;
+}
+
+/* ******************** *
+ * Semantic HTML 5 tags *
+ * ******************** */
+
 header {
-  color: gray;
-  background-color: red;
+  color: inherit;
+  background-color: inherit;
+  position: fixed;
+  margin: 0;
+  padding: 10px;
 }
 
 nav {
-  color: white;
-  background-color: grey;
+  color: inherit;
+  background-color: inherit;
 }
+
+/* ********************* *
+ * Compund CSS Selectors *
+ * ********************* */
 
 nav > ul {
   padding: 0;
@@ -80,6 +122,16 @@ nav > ul > li {
 
 div.main-body {
   min-height: 100vh;
+}
+
+#section_1 > div > ul {
+  padding-inline-start: 0;
+  column-gap: 15px;
+  margin: 0;
+}
+
+#section_1 > div > ul > li {
+  row-gap: 15px;
 }
 
 /* ***************
@@ -116,12 +168,44 @@ div.main-body {
   display: none;
 }
 
+/* FLEX classes */
+
 .horizontal {
   flex-direction: row;
 }
 
 .vertical {
   flex-direction: column;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.flex-space-around {
+  justify-content: space-around;
+}
+
+.flex-space-evenly {
+  justify-content: space-evenly;
+}
+
+/* END of FLEX xlasses */
+
+.no-bullet {
+  list-style: none;
 }
 
 .logo {
@@ -136,22 +220,30 @@ div.main-body {
   min-height: 50vh;
 }
 
+.separator {
+  width: 375px;
+  height: 114px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 /* ******* *
  * CSS IDs *
  * ******* */
-
 #section_1 {
   background-image: url("../@images/section-1_background.jpeg");
   background-attachment: scroll;
   background-repeat: no-repeat;
-  width: 375px;
-  height: 750px;
+  height: 588px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 #section_2 {
   background-image: url("../@images/section-2_background.jpeg");
   background-attachment: scroll;
   background-repeat: no-repeat;
-  width: 375px;
-  height: 750px;
+  height: 588px;
+  padding-left: 40px;
+  padding-right: 40px;
 }

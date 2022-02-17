@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="20"
+   height="20"
+   viewBox="0 0 5.2916665 5.2916668"
+   version="1.1"
+   id="svg12"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="social_logo_4.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="21.02682"
+     inkscape:cx="12.317602"
+     inkscape:cy="11.628006"
+     inkscape:window-width="1900"
+     inkscape:window-height="960"
+     inkscape:window-x="10"
+     inkscape:window-y="43"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs9" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       d="m 5.0104316,1.9780522 c 0,-0.3015986 -0.09684,-0.584917 -0.281702,-0.831678 0.07043,-0.23762229 0.08803,-0.53922089 0.07043,-0.88651429 -0.0088,-0.1462291 -0.123243,-0.255901 -0.264107,-0.255901 -0.07922,0 -0.748268,0.00914 -1.135592,0.3655721 -0.3345387,-0.063974 -0.6866515,-0.063974 -1.0299749,0 -0.3785321,-0.3564328 -1.0475707,-0.3655721 -1.135603,-0.3655721 -0.1408509,0 -0.25529105,0.1096719 -0.26409375,0.255901 -0.026411,0.3472934 0,0.648892 0.070424,0.88651429 -0.1848643,0.2558997 -0.2816992,0.5392208 -0.2816992,0.831678 0,0.6397519 0.4753688,1.2155382 1.1972264,1.4896994 C 1.9293321,3.5225996 1.9117241,3.586576 1.8941181,3.6505522 1.1282452,3.5682933 0.7673166,2.8462983 0.7497112,2.818861 0.6880871,2.6817804 0.5296308,2.6269428 0.3975847,2.7000631 0.2655376,2.7640391 0.2127187,2.9285308 0.2831439,3.0656379 0.3007499,3.1113309 0.784922,4.0892314 1.8501027,4.1989012 v 0.8225367 c 0,0.1553633 0.1144429,0.2741877 0.2640939,0.2741877 h 1.540563 c 0.149648,0 0.264081,-0.1188244 0.264081,-0.2741877 V 3.9338681 c 0,-0.164518 -0.03522,-0.3198813 -0.09684,-0.4569619 0.713052,-0.2833158 1.188429,-0.8499634 1.188429,-1.498854 z"
+       fill="#505f79"
+       id="path398"
+       style="stroke-width:0.264583" />
+  </g>
+</svg>
