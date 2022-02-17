@@ -93,6 +93,8 @@ header {
   color: inherit;
   background-color: inherit;
   position: fixed;
+  margin: 0px;
+  padding: 10px;
 }
 
 nav {
