@@ -78,6 +78,10 @@ nav > ul > li {
   padding-right: 3em;
 }
 
+div.main-body {
+  min-height: 100vh;
+}
+
 /* ***************
  *  CSS Classes *
 ** **************/
