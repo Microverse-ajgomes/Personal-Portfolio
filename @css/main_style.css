@@ -196,6 +196,8 @@ div.main-body {
 .separator {
   width: 375px;
   height: 114px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 /* ******* *
@@ -205,14 +207,16 @@ div.main-body {
   background-image: url("../@images/section-1_background.jpeg");
   background-attachment: scroll;
   background-repeat: no-repeat;
-  width: 375px;
-  height: 718px;
+  height: 588px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 #section_2 {
   background-image: url("../@images/section-2_background.jpeg");
   background-attachment: scroll;
   background-repeat: no-repeat;
-  width: 375px;
-  height: 718px;
+  height: 588px;
+  padding-left: 40px;
+  padding-left: 40px;
 }
