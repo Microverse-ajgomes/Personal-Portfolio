@@ -90,13 +90,14 @@ li {
  * ******************** */
 
 header {
-  color: gray;
-  background-color: red;
+  color: inherit;
+  background-color: inherit;
+  position: fixed;
 }
 
 nav {
-  color: white;
-  background-color: grey;
+  color: inherit;
+  background-color: inherit;
 }
 
 /* ********************* *
