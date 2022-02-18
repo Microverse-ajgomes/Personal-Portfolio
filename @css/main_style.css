@@ -186,6 +186,10 @@ div.main-body {
   justify-content: space-between;
 }
 
+.grid-box {
+  display: grid;
+}
+
 .block-box {
   display: block;
 }
@@ -238,6 +242,9 @@ div.main-body {
 
 /* END of FLEX classes */
 
+/* CSS GRID classes */
+
+
 .no-bullet {
   list-style: none;
 }
@@ -281,4 +288,10 @@ div.main-body {
   height: var(--section_2-height);
   padding-left: var(--section_2-padding-left);
   padding-right: var(--section_2-padding-right);
+}
+
+#work-cards-section {
+  grid-template-rows: repeat(4,1fr);
+  grid-template-columns: repeat(1,1fr);
+  grid-gap: var(--separator-height);
 }
