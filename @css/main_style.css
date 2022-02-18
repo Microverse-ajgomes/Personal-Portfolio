@@ -139,7 +139,7 @@ nav {
 }
 
 /* ********************* *
- * Compund CSS Selectors *
+ * Compound CSS Selectors *
  * ********************* */
 
 nav > ul {
@@ -236,7 +236,7 @@ div.main-body {
   justify-content: space-evenly;
 }
 
-/* END of FLEX xlasses */
+/* END of FLEX classes */
 
 .no-bullet {
   list-style: none;
