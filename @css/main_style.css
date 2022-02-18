@@ -28,6 +28,40 @@
 
 ************************************************************************************************************************/
 
+/* ******************************** *
+ * ROOT element                     *
+ * ------------                     *
+ * CSS Global variables declaration *
+ * ******************************** */
+
+:root {
+  /* Global page values */
+  --global-page-width: 375px;
+  --global-page-height: 750px;
+
+  /* Separator values */
+  --separator-width: var(--global-page-width);
+  --separator-height: 114px;
+
+  /* Section 1 */
+  --section_1-width: 375px;
+  --section_1-height: 588px;
+  --section_1-padding-left: 40px;
+  --section_1-padding-right: 40px;
+
+  /* Section 2 */
+  --section_2-width: 375px;
+  --section_2-height: 588px;
+  --section_2-padding-left: 40px;
+  --section_2-padding-right: 40px;
+
+  /* Workcard */
+  --workcard-width: 327px;
+  --workcard-height: 596px;
+  --workcard-padding-left: 24px;
+  --workcard-padding-right: 24px;
+}
+
 /* *************** *
  * Basic HTML tags *
  * *************** */
@@ -139,11 +173,11 @@ div.main-body {
 ** **************/
 
 .w-375px {
-  width: 375px;
+  width: var(--global-page-width);
 }
 
 .h-750px {
-  height: 750px;
+  height: var(--global-page-height);
 }
 
 .flex-box {
@@ -221,10 +255,10 @@ div.main-body {
 }
 
 .separator {
-  width: 375px;
-  height: 114px;
-  padding-left: 40px;
-  padding-right: 40px;
+  width: var(--separator-width);
+  height: var(--separator-height);
+  padding-left: var(--separator-padding-left);
+  padding-right: var(--separator-padding-right);
 }
 
 /* ******* *
@@ -235,16 +269,16 @@ div.main-body {
   background-image: url("../@images/section-1_background.jpeg");
   background-attachment: scroll;
   background-repeat: no-repeat;
-  height: 588px;
-  padding-left: 40px;
-  padding-right: 40px;
+  height: var(--section_1-height);
+  padding-left: var(--section_1-padding-left);
+  padding-right: var(--section_1-padding-right);
 }
 
 #section_2 {
   background-image: url("../@images/section-2_background.jpeg");
   background-attachment: scroll;
   background-repeat: no-repeat;
-  height: 588px;
-  padding-left: 40px;
-  padding-right: 40px;
+  height: var(--section_2-height);
+  padding-left: var(--section_2-padding-left);
+  padding-right: var(--section_2-padding-right);
 }
