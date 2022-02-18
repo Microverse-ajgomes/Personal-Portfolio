@@ -38,19 +38,23 @@
   /* Global page values */
   --global-page-width: 375px;
   --global-page-height: 750px;
+
   /* Separator values */
   --separator-width: var(--global-page-width);
   --separator-height: 114px;
+
   /* Section 1 */
-  --section_1-width:375px;
+  --section_1-width: 375px;
   --section_1-height: 588px;
   --section_1-padding-left: 40px;
   --section_1-padding-right: 40px;
+
   /* Section 2 */
   --section_2-width: 375px;
   --section_2-height: 588px;
   --section_2-padding-left: 40px;
   --section_2-padding-right: 40px;
+
   /* Workcard */
   --workcard-width: 327px;
   --workcard-height: 596px;
