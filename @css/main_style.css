@@ -301,6 +301,10 @@ div.main-body {
   border-radius: 16px;
 }
 
+.Work-card-padding {
+  padding: 16px;
+}
+
 .bullet-margin {
   margin-left: 12px;
   margin-right: 12px;
