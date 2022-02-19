@@ -296,6 +296,11 @@ div.main-body {
   row-gap: 12px;
 }
 
+.work-card-border {
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
 .bullet-margin {
   margin-left: 12px;
   margin-right: 12px;
