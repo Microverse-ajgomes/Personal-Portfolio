@@ -284,13 +284,12 @@ div.main-body {
   padding-bottom: 0;
 }
 
-.works-img-size
-{
+.works-img-size {
   width: 100%;
 }
 
 .work-card-h-gap-8px {
-  row-gap: 8px;  
+  row-gap: 8px;
 }
 
 .work-card-h-gap-12px {
@@ -322,7 +321,7 @@ div.main-body {
   line-height: 16px;
   font-weight: 600;
   text-align: left;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .work-year-props {
@@ -330,7 +329,7 @@ div.main-body {
   line-height: 16px;
   font-weight: 600;
   text-align: left;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .work-card-text {
