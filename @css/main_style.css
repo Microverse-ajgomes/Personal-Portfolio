@@ -60,6 +60,16 @@
   --workcard-height: 596px;
   --workcard-padding-left: 24px;
   --workcard-padding-right: 24px;
+
+  /* Workcard image */
+  --works-img-height: 295px;
+  --works-img-width: 220px;
+
+  /* WORKS section */
+  --works-section-width: 375px;
+  --works-section-height: 588px;
+  --works-section-padding-left: 24px;
+  --works-section-padding-right: 24px;
 }
 
 /* *************** *
@@ -182,6 +192,10 @@ div.main-body {
 
 .flex-box {
   display: flex;
+}
+
+.flex-box-center {
+  display: flex;
   align-content: center;
   justify-content: space-between;
 }
@@ -250,6 +264,137 @@ div.main-body {
   list-style: none;
 }
 
+.no-padding {
+  padding: 0;
+}
+
+.no-padding-left {
+  padding-left: 0;
+}
+
+.no-padding-right {
+  padding-right: 0;
+}
+
+.no-padding-top {
+  padding-top: 0;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0;
+}
+
+.works-img-size
+{
+  width: 100%;
+}
+
+.work-card-h-gap-8px {
+  row-gap: 8px;  
+}
+
+.work-card-h-gap-12px {
+  row-gap: 12px;
+}
+
+.bullet-margin {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.work-title-props {
+  font-size: 24px;
+  line-height: 44px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.client-name-props {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  text-align: left;
+  color: #344563;
+}
+
+.work-name-props {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  text-align: left;
+  color: #7A869A;
+}
+
+.work-year-props {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  text-align: left;
+  color: #7A869A;
+}
+
+.work-card-text {
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.prog-lang-list {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 8px;
+  background-color: #ebebff;
+  color: #6070ff;
+}
+
+.r-margin-8px {
+  margin-right: 8px;
+}
+
+.works-card-button {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+  color: #6070ff;
+  border: 1px solid #7f8cff;
+  border-radius: 8px;
+}
+
+.works-card-button:hover {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  background-color: #6070ff;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+}
+
+.works-card-button:active {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  background-color: #2230d2;
+  border: 1px solid #2230d2;
+  border-radius: 8px;
+}
+
+.works-card-button:disabled {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+  color: #5e6c84;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+}
+
 .logo {
   padding: 10px;
 }
@@ -295,4 +440,11 @@ div.main-body {
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: repeat(1, 1fr);
   grid-gap: var(--separator-height);
+}
+
+#work_card_1 {
+  width: var(--workcard-width);
+  height: var(--workcard-height);
+  padding-left: var(--workcard-padding-left);
+  padding-right: var(--workcard-padding-right);
 }
