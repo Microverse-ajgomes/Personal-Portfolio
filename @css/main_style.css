@@ -463,3 +463,17 @@ div.main-body {
   padding-left: var(--workcard-padding-left);
   padding-right: var(--workcard-padding-right);
 }
+
+#work_card_3 {
+  width: var(--workcard-width);
+  height: var(--workcard-height);
+  padding-left: var(--workcard-padding-left);
+  padding-right: var(--workcard-padding-right);
+}
+
+#work_card_4 {
+  width: var(--workcard-width);
+  height: var(--workcard-height);
+  padding-left: var(--workcard-padding-left);
+  padding-right: var(--workcard-padding-right);
+}
