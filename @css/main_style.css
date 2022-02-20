@@ -436,9 +436,6 @@ div.main-body {
 }
 
 #section_2 {
-  background-image: url("../@images/section-2_background.jpeg");
-  background-attachment: scroll;
-  background-repeat: no-repeat;
   height: var(--section_2-height);
   padding-left: var(--section_2-padding-left);
   padding-right: var(--section_2-padding-right);
