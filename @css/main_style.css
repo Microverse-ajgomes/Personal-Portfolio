@@ -296,6 +296,15 @@ div.main-body {
   row-gap: 12px;
 }
 
+.work-card-border {
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.work-card-padding {
+  padding: 16px;
+}
+
 .bullet-margin {
   margin-left: 12px;
   margin-right: 12px;
@@ -442,6 +451,27 @@ div.main-body {
 }
 
 #work_card_1 {
+  width: var(--workcard-width);
+  height: var(--workcard-height);
+  padding-left: var(--workcard-padding-left);
+  padding-right: var(--workcard-padding-right);
+}
+
+#work_card_2 {
+  width: var(--workcard-width);
+  height: var(--workcard-height);
+  padding-left: var(--workcard-padding-left);
+  padding-right: var(--workcard-padding-right);
+}
+
+#work_card_3 {
+  width: var(--workcard-width);
+  height: var(--workcard-height);
+  padding-left: var(--workcard-padding-left);
+  padding-right: var(--workcard-padding-right);
+}
+
+#work_card_4 {
   width: var(--workcard-width);
   height: var(--workcard-height);
   padding-left: var(--workcard-padding-left);
