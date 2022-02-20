@@ -178,6 +178,9 @@ div.main-body {
   row-gap: 15px;
 }
 
+#section_2 > div > ul > li {
+  row-gap: 15px;
+}
 /* ***************
  *  CSS Classes *
 ** **************/
