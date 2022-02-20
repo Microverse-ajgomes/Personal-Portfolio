@@ -78,6 +78,7 @@
 
 html {
   background: white;
+  font-family: 'Poppins', sans-serif;
 }
 
 html:lang(for-stupid-linters) {
@@ -168,6 +169,28 @@ div.main-body {
   min-height: 100vh;
 }
 
+dl.tech-menu > dd {
+  margin-inline-start: 0;
+  padding: 12px;
+}
+
+dl.tech-menu > dd > ul {
+  padding-inline-start: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 12px;
+}
+
+dl.tech-menu > dd > ul > li {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  column-gap: 16px;
+  padding: 9px 12px;
+  background-color: #f7f7f9;
+}
+
 #section_1 > div > ul {
   padding-inline-start: 0;
   column-gap: 15px;
@@ -175,6 +198,16 @@ div.main-body {
 }
 
 #section_1 > div > ul > li {
+  row-gap: 15px;
+}
+
+#section_2 > div > ul {
+  padding-inline-start: 0;
+  column-gap: 15px;
+  margin: 0;
+}
+
+#section_2 > div > ul > li {
   row-gap: 15px;
 }
 
@@ -255,6 +288,18 @@ div.main-body {
 }
 
 /* END of FLEX classes */
+
+.border-bottom {
+  border-bottom: 1px solid #dfe1e6;
+}
+
+dl.tech-menu > dt {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  padding: 24px 12px;
+}
 
 /* CSS GRID classes */
 
@@ -436,9 +481,6 @@ div.main-body {
 }
 
 #section_2 {
-  background-image: url("../@images/section-2_background.jpeg");
-  background-attachment: scroll;
-  background-repeat: no-repeat;
   height: var(--section_2-height);
   padding-left: var(--section_2-padding-left);
   padding-right: var(--section_2-padding-right);
