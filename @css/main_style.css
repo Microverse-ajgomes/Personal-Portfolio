@@ -28,12 +28,57 @@
 
 ************************************************************************************************************************/
 
+/* ******************************** *
+ * ROOT element                     *
+ * ------------                     *
+ * CSS Global variables declaration *
+ * ******************************** */
+
+:root {
+  /* Global page values */
+  --global-page-width: 375px;
+  --global-page-height: 750px;
+
+  /* Separator values */
+  --separator-width: var(--global-page-width);
+  --separator-height: 114px;
+
+  /* Section 1 */
+  --section_1-width: 375px;
+  --section_1-height: 588px;
+  --section_1-padding-left: 40px;
+  --section_1-padding-right: 40px;
+
+  /* Section 2 */
+  --section_2-width: 375px;
+  --section_2-height: 588px;
+  --section_2-padding-left: 40px;
+  --section_2-padding-right: 40px;
+
+  /* Workcard */
+  --workcard-width: 327px;
+  --workcard-height: 596px;
+  --workcard-padding-left: 24px;
+  --workcard-padding-right: 24px;
+
+  /* Workcard image */
+  --works-img-height: 295px;
+  --works-img-width: 220px;
+
+  /* WORKS section */
+  --works-section-width: 375px;
+  --works-section-height: 588px;
+  --works-section-padding-left: 24px;
+  --works-section-padding-right: 24px;
+}
+
 /* *************** *
  * Basic HTML tags *
  * *************** */
 
 html {
   background: white;
+  font-family: 'Poppins', sans-serif;
 }
 
 html:lang(for-stupid-linters) {
@@ -105,7 +150,7 @@ nav {
 }
 
 /* ********************* *
- * Compund CSS Selectors *
+ * Compound CSS Selectors *
  * ********************* */
 
 nav > ul {
@@ -124,6 +169,28 @@ div.main-body {
   min-height: 100vh;
 }
 
+dl.tech-menu > dd {
+  margin-inline-start: 0;
+  padding: 12px;
+}
+
+dl.tech-menu > dd > ul {
+  padding-inline-start: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 12px;
+}
+
+dl.tech-menu > dd > ul > li {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  column-gap: 16px;
+  padding: 9px 12px;
+  background-color: #f7f7f9;
+}
+
 #section_1 > div > ul {
   padding-inline-start: 0;
   column-gap: 15px;
@@ -134,22 +201,40 @@ div.main-body {
   row-gap: 15px;
 }
 
+#section_2 > div > ul {
+  padding-inline-start: 0;
+  column-gap: 15px;
+  margin: 0;
+}
+
+#section_2 > div > ul > li {
+  row-gap: 15px;
+}
+
 /* ***************
  *  CSS Classes *
 ** **************/
 
 .w-375px {
-  width: 375px;
+  width: var(--global-page-width);
 }
 
 .h-750px {
-  height: 750px;
+  height: var(--global-page-height);
 }
 
 .flex-box {
   display: flex;
+}
+
+.flex-box-center {
+  display: flex;
   align-content: center;
   justify-content: space-between;
+}
+
+.grid-box {
+  display: grid;
 }
 
 .block-box {
@@ -202,10 +287,165 @@ div.main-body {
   justify-content: space-evenly;
 }
 
-/* END of FLEX xlasses */
+/* END of FLEX classes */
+
+.border-bottom {
+  border-bottom: 1px solid #dfe1e6;
+}
+
+dl.tech-menu > dt {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  padding: 24px 12px;
+}
+
+/* CSS GRID classes */
+
+/* END of CSS GRID classes */
 
 .no-bullet {
   list-style: none;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-padding-left {
+  padding-left: 0;
+}
+
+.no-padding-right {
+  padding-right: 0;
+}
+
+.no-padding-top {
+  padding-top: 0;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0;
+}
+
+.works-img-size {
+  width: 100%;
+}
+
+.work-card-h-gap-8px {
+  row-gap: 8px;
+}
+
+.work-card-h-gap-12px {
+  row-gap: 12px;
+}
+
+.work-card-border {
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.work-card-padding {
+  padding: 16px;
+}
+
+.bullet-margin {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.work-title-props {
+  font-size: 24px;
+  line-height: 44px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.client-name-props {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  text-align: left;
+  color: #344563;
+}
+
+.work-name-props {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  text-align: left;
+  color: #7a869a;
+}
+
+.work-year-props {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  text-align: left;
+  color: #7a869a;
+}
+
+.work-card-text {
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.prog-lang-list {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 8px;
+  background-color: #ebebff;
+  color: #6070ff;
+}
+
+.r-margin-8px {
+  margin-right: 8px;
+}
+
+.works-card-button {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+  color: #6070ff;
+  border: 1px solid #7f8cff;
+  border-radius: 8px;
+}
+
+.works-card-button:hover {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  background-color: #6070ff;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+}
+
+.works-card-button:active {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  background-color: #2230d2;
+  border: 1px solid #2230d2;
+  border-radius: 8px;
+}
+
+.works-card-button:disabled {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+  color: #5e6c84;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
 }
 
 .logo {
@@ -221,10 +461,10 @@ div.main-body {
 }
 
 .separator {
-  width: 375px;
-  height: 114px;
-  padding-left: 40px;
-  padding-right: 40px;
+  width: var(--separator-width);
+  height: var(--separator-height);
+  padding-left: var(--separator-padding-left);
+  padding-right: var(--separator-padding-right);
 }
 
 /* ******* *
@@ -235,16 +475,47 @@ div.main-body {
   background-image: url("../@images/section-1_background.jpeg");
   background-attachment: scroll;
   background-repeat: no-repeat;
-  height: 588px;
-  padding-left: 40px;
-  padding-right: 40px;
+  height: var(--section_1-height);
+  padding-left: var(--section_1-padding-left);
+  padding-right: var(--section_1-padding-right);
 }
 
 #section_2 {
-  background-image: url("../@images/section-2_background.jpeg");
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  height: 588px;
-  padding-left: 40px;
-  padding-right: 40px;
+  height: var(--section_2-height);
+  padding-left: var(--section_2-padding-left);
+  padding-right: var(--section_2-padding-right);
+}
+
+#work-cards-section {
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: var(--separator-height);
+}
+
+#work_card_1 {
+  width: var(--workcard-width);
+  height: var(--workcard-height);
+  padding-left: var(--workcard-padding-left);
+  padding-right: var(--workcard-padding-right);
+}
+
+#work_card_2 {
+  width: var(--workcard-width);
+  height: var(--workcard-height);
+  padding-left: var(--workcard-padding-left);
+  padding-right: var(--workcard-padding-right);
+}
+
+#work_card_3 {
+  width: var(--workcard-width);
+  height: var(--workcard-height);
+  padding-left: var(--workcard-padding-left);
+  padding-right: var(--workcard-padding-right);
+}
+
+#work_card_4 {
+  width: var(--workcard-width);
+  height: var(--workcard-height);
+  padding-left: var(--workcard-padding-left);
+  padding-right: var(--workcard-padding-right);
 }
