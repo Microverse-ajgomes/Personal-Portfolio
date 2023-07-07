@@ -87,6 +87,25 @@ li {
   background-color: inherit;
 }
 
+/* ******************* *
+ * CSS Media Selectors *
+ * ******************* */
+
+@media (min-width: 375px) and (max-width: 768px) {
+  header {
+    left: 0;
+    right: 0;
+  }
+}
+
+@media (min-width: 769px) {
+  header {
+    box-sizing: border-box;
+    left: 0;
+    width: 768px;
+  }
+}
+
 /* ******************** *
  * Semantic HTML 5 tags *
  * ******************** */
