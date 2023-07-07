@@ -58,7 +58,6 @@ For more information on the importance of a professional README for your reposit
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -213,25 +212,6 @@ I would like to thank to everybody that has contributed for the Open Source comm
 Also, a HUGE thank to all [Microverse](https://microverse.org) and all Microverse Community.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- FAQ (optional) -->
-
-<!--
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
--->
 
 
 <!-- LICENSE -->
