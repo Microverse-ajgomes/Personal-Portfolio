@@ -231,6 +231,14 @@ div.main-body {
   color: #172B4D;
 }
 
+.main-title-style {
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+}
+
 .lc-button-text-color {
   color: #4053FC;
 }
