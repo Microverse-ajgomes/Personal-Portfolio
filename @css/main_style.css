@@ -95,6 +95,8 @@ header {
   color: inherit;
   background-color: inherit;
   position: fixed;
+  left: 0;
+  right: 0;
   margin: 0;
   padding: 10px;
 }
@@ -251,6 +253,7 @@ div.main-body {
   background-image: url("../@images/section-1_background.jpeg");
   background-attachment: scroll;
   background-repeat: no-repeat;
+  background-size: cover;
   height: 588px;
   padding-left: 40px;
   padding-right: 40px;
@@ -260,6 +263,7 @@ div.main-body {
   background-image: url("../@images/section-2_background.jpeg");
   background-attachment: scroll;
   background-repeat: no-repeat;
+  background-size: cover;
   height: 588px;
   padding-left: 40px;
   padding-right: 40px;
