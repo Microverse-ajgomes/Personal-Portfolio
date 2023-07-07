@@ -249,11 +249,11 @@ div.main-body {
 }
 
 .main-text-color {
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .main-title-style {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -261,7 +261,7 @@ div.main-body {
 }
 
 .lc-button-text-color {
-  color: #4053FC;
+  color: #4053fc;
 }
 
 /* ******* *
