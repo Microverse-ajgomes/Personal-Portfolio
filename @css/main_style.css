@@ -227,6 +227,14 @@ div.main-body {
   padding-right: 40px;
 }
 
+.main-text-color {
+  color: #172B4D;
+}
+
+.lc-button-text-color {
+  color: #4053FC;
+}
+
 /* ******* *
  * CSS IDs *
  * ******* */
