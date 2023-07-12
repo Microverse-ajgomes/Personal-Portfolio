@@ -252,16 +252,28 @@ div.main-body {
   padding-right: 40px;
 }
 
-.main-text-color {
-  color: #172b4d;
-}
-
 .main-title-style {
   font-family: Poppins, sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
   line-height: 52px;
+}
+
+.main-title-color {
+  color: #172b4d;
+}
+
+.main-text-style {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.main-text-color {
+  color: #344563;
 }
 
 .lc-button-text-color {
