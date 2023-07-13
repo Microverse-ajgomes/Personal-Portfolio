@@ -221,6 +221,10 @@ div.main-body {
   justify-content: space-between;
 }
 
+.flex-box-inline {
+  display: inline-flex;
+}
+
 .flex-box-center {
   display: flex;
   align-content: center;
