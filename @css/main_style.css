@@ -177,6 +177,16 @@ div.main-body {
   justify-content: space-between;
 }
 
+.flex-box-center {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.grid-box {
+  display: grid;
+}
+
 .block-box {
   display: block;
 }
@@ -227,7 +237,11 @@ div.main-body {
   justify-content: space-evenly;
 }
 
-/* END of FLEX xlasses */
+/* END of FLEX classes */
+
+/* CSS GRID classes */
+
+/* END of CSS GRID classes */
 
 .no-bullet {
   list-style: none;
@@ -311,3 +325,38 @@ div.main-body {
   padding-left: 40px;
   padding-right: 40px;
 }
+
+#work-cards-section {
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: var(--separator-height);
+}
+
+#work_card_1 {
+  width: var(--workcard-width);
+  height: var(--workcard-height);
+  padding-left: var(--workcard-padding-left);
+  padding-right: var(--workcard-padding-right);
+}
+
+#work_card_2 {
+  width: var(--workcard-width);
+  height: var(--workcard-height);
+  padding-left: var(--workcard-padding-left);
+  padding-right: var(--workcard-padding-right);
+}
+
+#work_card_3 {
+  width: var(--workcard-width);
+  height: var(--workcard-height);
+  padding-left: var(--workcard-padding-left);
+  padding-right: var(--workcard-padding-right);
+}
+
+#work_card_4 {
+  width: var(--workcard-width);
+  height: var(--workcard-height);
+  padding-left: var(--workcard-padding-left);
+  padding-right: var(--workcard-padding-right);
+}
+
