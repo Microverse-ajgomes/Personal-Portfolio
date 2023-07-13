@@ -302,6 +302,18 @@ div.main-body {
   text-align: left;
 }
 
+.bullet-margin {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.work-title-props {
+  font-size: 24px;
+  line-height: 44px;
+  font-weight: 700;
+  text-align: left;
+}
+
 .client-name-props {
   font-size: 13px;
   line-height: 16px;
