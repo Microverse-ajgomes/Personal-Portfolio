@@ -544,6 +544,12 @@ div.main-body {
   padding-right: 40px;
 }
 
+#about-myself {
+  padding: 114px 24px;
+  align-items: center;
+  gap: 88px;
+}
+
 #section_3 {
   background-image: url("../@images/section-2_background.jpeg");
   background-attachment: scroll;
