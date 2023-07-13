@@ -526,6 +526,7 @@ div.main-body {
 }
 
 #work_card_1 {
+
   /* width: var(--workcard-width); */
   /* height: var(--workcard-height); */
   padding-left: var(--workcard-padding-left);
@@ -533,6 +534,7 @@ div.main-body {
 }
 
 #work_card_2 {
+
   /* width: var(--workcard-width); */
   /* height: var(--workcard-height); */
   padding-left: var(--workcard-padding-left);
