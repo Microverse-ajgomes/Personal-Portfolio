@@ -517,7 +517,8 @@ div.main-body {
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: repeat(1, 1fr);
   grid-gap: var(--separator-height);
-/*   display: inline-flex; */
+
+  /* display: inline-flex; */
   padding: 114px 24px;
   flex-direction: column;
   align-items: center;
@@ -525,29 +526,31 @@ div.main-body {
 }
 
 #work_card_1 {
-/*   width: var(--workcard-width); */
-/*   height: var(--workcard-height); */
+  /* width: var(--workcard-width); */
+  /* height: var(--workcard-height); */
   padding-left: var(--workcard-padding-left);
   padding-right: var(--workcard-padding-right);
 }
 
 #work_card_2 {
-/*   width: var(--workcard-width); */
-/*   height: var(--workcard-height); */
+  /* width: var(--workcard-width); */
+  /* height: var(--workcard-height); */
   padding-left: var(--workcard-padding-left);
   padding-right: var(--workcard-padding-right);
 }
 
 #work_card_3 {
-/*   width: var(--workcard-width); */
-/*   height: var(--workcard-height); */
+
+  /* width: var(--workcard-width); */
+  /* height: var(--workcard-height); */
   padding-left: var(--workcard-padding-left);
   padding-right: var(--workcard-padding-right);
 }
 
 #work_card_4 {
-/*   width: var(--workcard-width); */
-/*   height: var(--workcard-height); */
+
+  /* width: var(--workcard-width); */
+  /* height: var(--workcard-height); */
   padding-left: var(--workcard-padding-left);
   padding-right: var(--workcard-padding-right);
 }
