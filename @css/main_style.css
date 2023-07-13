@@ -536,6 +536,15 @@ div.main-body {
 }
 
 #section_2 {
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 588px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#section_3 {
   background-image: url("../@images/section-2_background.jpeg");
   background-attachment: scroll;
   background-repeat: no-repeat;
