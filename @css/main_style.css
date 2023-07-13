@@ -243,8 +243,149 @@ div.main-body {
 
 /* END of CSS GRID classes */
 
+/* START of usual CSS classes */
+
 .no-bullet {
   list-style: none;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-padding-left {
+  padding-left: 0;
+}
+
+.no-padding-right {
+  padding-right: 0;
+}
+
+.no-padding-top {
+  padding-top: 0;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0;
+}
+
+.works-img-size {
+  width: 100%;
+}
+
+.work-card-h-gap-8px {
+  row-gap: 8px;
+}
+
+.work-card-h-gap-12px {
+  row-gap: 12px;
+}
+
+.work-card-border {
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.work-card-padding {
+  padding: 16px;
+}
+
+.bullet-margin {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.work-title-props {
+  font-size: 24px;
+  line-height: 44px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.client-name-props {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  text-align: left;
+  color: #344563;
+}
+
+.work-name-props {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  text-align: left;
+  color: #7a869a;
+}
+
+.work-year-props {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  text-align: left;
+  color: #7a869a;
+}
+
+.work-card-text {
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.prog-lang-list {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 8px;
+  background-color: #ebebff;
+  color: #6070ff;
+}
+
+.r-margin-8px {
+  margin-right: 8px;
+}
+
+.works-card-button {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+  color: #6070ff;
+  border: 1px solid #7f8cff;
+  border-radius: 8px;
+}
+
+.works-card-button:hover {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  background-color: #6070ff;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+}
+
+.works-card-button:active {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  background-color: #2230d2;
+  border: 1px solid #2230d2;
+  border-radius: 8px;
+}
+
+.works-card-button:disabled {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+  color: #5e6c84;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
 }
 
 .logo {
@@ -260,10 +401,10 @@ div.main-body {
 }
 
 .separator {
-  width: 375px;
-  height: 114px;
-  padding-left: 40px;
-  padding-right: 40px;
+  width: var(--separator-width);
+  height: var(--separator-height);
+  padding-left: var(--separator-padding-left);
+  padding-right: var(--separator-padding-right);
 }
 
 .main-title-style {
@@ -301,6 +442,8 @@ div.main-body {
 .lc-button-text-color {
   color: #7f8cff;
 }
+
+/* END of usual CSS classes */
 
 /* ******* *
  * CSS IDs *
