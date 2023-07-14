@@ -538,6 +538,15 @@ div.main-body {
   line-height: 24px; 	/* 150% */
 }
 
+.lets-connect-text-style {
+  color: #7f8cff;		/*#7F8CFF */
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
 /* END of usual CSS classes */
 
 /* ******* *
@@ -561,6 +570,12 @@ div.main-body {
   height: 588px;
   padding-left: 40px;
   padding-right: 40px;
+}
+
+#about-myself-layout {
+  padding: 114px 24px;
+  align-items: center;
+  gap: 88px;
 }
 
 #about-myself {
@@ -607,4 +622,33 @@ div.main-body {
 #work_card_4 {
   padding-left: var(--workcard-padding-left);
   padding-right: var(--workcard-padding-right);
+}
+
+#social_logo_1a {
+  width: 18px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+#social_logo_2a {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+#social_logo_3a {
+  width: 24px;
+  height: 24px;
+}
+
+#social_logo_4a {
+  width: 20px;
+  height: 19.967px;
+  flex-shrink: 0;
+}
+
+#social_logo_5a {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
 }
