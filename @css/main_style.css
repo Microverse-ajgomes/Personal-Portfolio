@@ -629,8 +629,7 @@ dl.tech-menu > dt {
 
 #about-myself-layout {
   padding: 0 0;
-  align-items: center;
-  gap: 88px;
+  gap: 24px;
 }
 
 #about-myself {
