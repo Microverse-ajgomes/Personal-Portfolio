@@ -566,6 +566,8 @@ div.main-body {
   font-weight: 500;
   line-height: 24px;	/* 141.176% */
   letter-spacing: 0.51px;
+  border: 1px solid #7f8cff;
+  border-radius: 8px;
 }
 
 /* END of usual CSS classes */
