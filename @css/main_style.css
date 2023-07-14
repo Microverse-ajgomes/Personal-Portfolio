@@ -203,6 +203,16 @@ div.main-body {
   row-gap: 15px;
 }
 
+#about-myself-social-menu > div > ul {
+  padding-inline-start: 0;
+  column-gap: 15px;
+  margin: 0;
+}
+
+#about-myself-social-menu > div > ul > li {
+  row-gap: 15px;
+}
+
 /* ***************
  *  CSS Classes *
 ** **************/
@@ -573,7 +583,7 @@ div.main-body {
 }
 
 #about-myself-layout {
-  padding: 114px 24px;
+  padding: 0px 0px;
   align-items: center;
   gap: 88px;
 }
