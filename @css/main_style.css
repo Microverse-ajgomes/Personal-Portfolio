@@ -319,6 +319,10 @@ dl.tech-menu > dt {
 
 /* START of usual CSS classes */
 
+.align-items-center {
+  align-items: center;
+}
+
 .no-bullet {
   list-style: none;
 }
