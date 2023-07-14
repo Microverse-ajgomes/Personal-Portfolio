@@ -551,8 +551,8 @@ div.main-body {
   gap: 88px;
 }
 
-#section_3 {
-  background-image: url("../@images/section-2_background.jpeg");
+#contact-me {
+  background-image: url("../@images/contact-me_background.svg");
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: cover;
