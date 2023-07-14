@@ -553,7 +553,7 @@ div.main-body {
 }
 
 .lets-connect-text-style {
-  color: #7f8cff;		/*#7F8CFF */
+  color: #7f8cff;		/* #7F8CFF */
   font-family: Poppins, sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -600,7 +600,7 @@ div.main-body {
 }
 
 #about-myself-layout {
-  padding: 0px 0px;
+  padding: 0 0;
   align-items: center;
   gap: 88px;
 }
