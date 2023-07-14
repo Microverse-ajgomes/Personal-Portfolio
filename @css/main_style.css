@@ -217,6 +217,10 @@ div.main-body {
  *  CSS Classes *
 ** **************/
 
+.w-327px {
+  width: 327px;
+}
+
 .w-375px {
   width: 375px;
 }
