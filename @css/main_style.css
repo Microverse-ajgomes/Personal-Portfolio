@@ -520,6 +520,24 @@ div.main-body {
   color: #7f8cff;
 }
 
+.about-myself-heading-text-style {
+  color: #172b4d;		/* #172B4D */
+  font-family: Poppins, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px; 	/* 130% */
+}
+
+.about-myself-text-style {
+  color: #344563;		/* #344563 */
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 	/* 150% */
+}
+
 /* END of usual CSS classes */
 
 /* ******* *
