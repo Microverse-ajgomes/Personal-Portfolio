@@ -283,6 +283,34 @@ div.main-body {
   justify-content: flex-end;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.flex-wrap-inherit {
+  flex-wrap: inherit;
+}
+
+.flex-wrap-initial {
+  flex-wrap: initial;
+}
+
+.flex-wrap-revert {
+  flex-wrap: initial;
+}
+
+.flex-wrap-unset {
+  flex-wrap: unset;
+}
+
 .flex-center {
   justify-content: center;
 }
