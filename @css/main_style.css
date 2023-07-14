@@ -295,6 +295,18 @@ div.main-body {
   justify-content: space-evenly;
 }
 
+.border-bottom {
+  border-bottom: 1px solid #dfe1e6;
+}
+
+dl.tech-menu > dt {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  padding: 24px 12px;
+}
+
 /* END of FLEX classes */
 
 /* CSS GRID classes */
@@ -574,6 +586,15 @@ div.main-body {
   border-radius: 8px;
 }
 
+.tech-menu-head-text-style {
+  color: #000;			/* #000000 */
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;	/* 120% */
+}
+
 /* END of usual CSS classes */
 
 /* ******* *
@@ -678,4 +699,16 @@ div.main-body {
   width: 20px;
   height: 20px;
   flex-shrink: 0;
+}
+
+#languages {
+
+}
+
+#frameworks {
+
+}
+
+#skills {
+
 }
