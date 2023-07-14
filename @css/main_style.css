@@ -595,6 +595,13 @@ dl.tech-menu > dt {
   line-height: 24px;	/* 120% */
 }
 
+.tech-menu-head-text-layout {
+  display: flex;
+  padding: 16px 26px 16px 12px;
+  align-items: center;
+  gap: 12px;
+}
+
 /* END of usual CSS classes */
 
 /* ******* *
