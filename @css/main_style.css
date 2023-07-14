@@ -422,6 +422,10 @@ div.main-body {
   margin-right: 8px;
 }
 
+.gap-12px {
+  gap: 12px;
+}
+
 .works-card-button {
   color: #396df2;		/* 396DF2 */
   text-align: center;
