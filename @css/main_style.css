@@ -602,6 +602,11 @@ dl.tech-menu > dt {
   gap: 12px;
 }
 
+.icon-24px {
+  width: 24px;
+  height: 24px;
+}
+
 /* END of usual CSS classes */
 
 /* ******* *
