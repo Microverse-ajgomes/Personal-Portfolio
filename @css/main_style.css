@@ -903,7 +903,7 @@ dl.tech-menu > dt {
 }
 
 #languages {
-  width: 237px;
+  min-width: 237px;
   color: #000;			/* #000000 */
   font-family: Poppins, sans-serif;
   font-size: 20px;
@@ -913,7 +913,7 @@ dl.tech-menu > dt {
 }
 
 #frameworks {
-  width: 237px;
+  min-width: 237px;
   color: #000;			/* #000000 */
   font-family: Poppins, sans-serif;
   font-size: 20px;
@@ -923,7 +923,7 @@ dl.tech-menu > dt {
 }
 
 #skills {
-  width: 237px;
+  min-width: 237px;
   color: #000;			/* #000000 */
   font-family: Poppins, sans-serif;
   font-size: 20px;
