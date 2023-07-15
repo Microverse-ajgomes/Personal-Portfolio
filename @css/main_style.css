@@ -479,6 +479,10 @@ dl.tech-menu > dt {
   gap: 12px;
 }
 
+.gap-24px {
+  gap: 24px;
+}
+
 .works-card-button {
   color: #396df2;		/* 396DF2 */
   text-align: center;
