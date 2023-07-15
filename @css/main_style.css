@@ -36,40 +36,40 @@
 
 :root {
   /* Global page values */
-  --global-page-width: 375px;
-  --global-page-height: 750px;
+  /* --global-page-width: 375px; */
+  /* --global-page-height: 750px; */
 
   /* Separator values */
-  --separator-width: var(--global-page-width);
-  --separator-height: 114px;
+  /* --separator-width: var(--global-page-width); */
+  /* --separator-height: 114px; */
 
   /* Section 1 */
-  --section_1-width: 375px;
-  --section_1-height: 588px;
-  --section_1-padding-left: 40px;
-  --section_1-padding-right: 40px;
+  /* --section_1-width: 375px; */
+  /* --section_1-height: 588px; */
+  /* --section_1-padding-left: 40px; */
+  /* --section_1-padding-right: 40px; */
 
   /* Section 2 */
-  --section_2-width: 375px;
-  --section_2-height: 588px;
-  --section_2-padding-left: 40px;
-  --section_2-padding-right: 40px;
+  /* --section_2-width: 375px; */
+  /* --section_2-height: 588px; */
+  /* --section_2-padding-left: 40px; */
+  /* --section_2-padding-right: 40px; */
 
   /* Workcard */
-  --workcard-width: 327px;
-  --workcard-height: 596px;
-  --workcard-padding-left: 24px;
-  --workcard-padding-right: 24px;
+  /* --workcard-width: 327px; */
+  /* --workcard-height: 596px; */
+  /* --workcard-padding-left: 24px; */
+  /* --workcard-padding-right: 24px; */
 
   /* Workcard image */
-  --works-img-height: 295px;
-  --works-img-width: 220px;
+  /* --works-img-height: 295px; */
+  /* --works-img-width: 220px; */
 
   /* WORKS section */
-  --works-section-width: 375px;
-  --works-section-height: 588px;
-  --works-section-padding-left: 24px;
-  --works-section-padding-right: 24px;
+  /* --works-section-width: 375px; */
+  /* --works-section-height: 588px; */
+  /* --works-section-padding-left: 24px; */
+  /*--works-section-padding-right: 24px; */
 }
 
 /* *************** *
@@ -237,7 +237,7 @@ div.main-body {
   height: 750px;
 }
 
-.flex-box {
+.flex-box {https://projects.microverse.datanet-pt.net/Personal-Portfolio/
   display: flex;
 }
 
@@ -389,7 +389,7 @@ dl.tech-menu > dt {
   width: 100%;
 }
 
-.work-card-h-gap-8px {
+.work-card-h-gap-8https://projects.microverse.datanet-pt.net/Personal-Portfolio/px {
   row-gap: 8px;
 }
 
