@@ -62,14 +62,14 @@
   /* --workcard-padding-right: 24px; */
 
   /* Workcard image */
-  /* --works-img-height: 295px; */
-  /* --works-img-width: 220px; */
+  --works-img-height: 295px;
+  --works-img-width: 220px;
 
   /* WORKS section */
-  /* --works-section-width: 375px; */
-  /* --works-section-height: 588px; */
-  /* --works-section-padding-left: 24px; */
-  /*--works-section-padding-right: 24px; */
+  --works-section-width: 375px;
+  --works-section-height: 588px;
+  --works-section-padding-left: 24px;
+  --works-section-padding-right: 24px;
 }
 
 /* *************** *
