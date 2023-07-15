@@ -811,6 +811,10 @@ dl.tech-menu > dt {
   gap: 24px;
 }
 
+#about-myself-inner-layout {
+  min-width: 327px;
+}
+
 #about-myself {
   padding: 114px 24px 114px 24px;
   align-items: center;
