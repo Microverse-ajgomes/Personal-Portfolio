@@ -361,6 +361,10 @@ dl.tech-menu > dt {
   list-style: none;
 }
 
+.null-padding {
+  padding: 0;
+}
+
 .no-padding {
   padding: 0;
 }
@@ -482,10 +486,6 @@ dl.tech-menu > dt {
 .prog-lang-item-layout {
   border-radius: 8px;
   background: #f7f7f9;	/* #F7F7F9 */
-}
-
-.null-padding {
-  padding: 0 ;
 }
 
 .r-margin-8px {
