@@ -657,7 +657,7 @@ dl.tech-menu > dt {
 .contact-me-header-text-style {
   color: #fff;			/* #FFFFFF */
   text-align: center;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -685,12 +685,90 @@ dl.tech-menu > dt {
   height: 48px;
   flex-shrink: 0;
   padding: 15px 38px 15px 16px;
+  border-radius: 8px;
+  border: 0px solid #cfd8dc;		/* #CFD8DC */
+  background: #fff;		/* #FFFFFF */
 }
 
 .form-name-text-style {
+  display: flex;
+  width: 273px;
+  height: 18px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #172b4d;		/* #172B4D */
+  font-family: Poppins, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;	/* 117.647% */
+}
+
+.form-email-layout {
+  width: 327px;
+  height: 48px;
+  flex-shrink: 0;
+  padding: 15px 38px 15px 16px;
   border-radius: 8px;
-  border: 1px solid #cfd8dc;		/* #CFD8DC */
-  background: #FFF;
+  border: 0px solid #cfd8dc;		/* #CFD8DC */
+  background: #fff;		/* #FFFFFF */
+}
+
+.form-email-text-style {
+  display: flex;
+  width: 273px;
+  height: 18px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #172b4d;		/* #172B4D */
+  font-family: Poppins, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;	/* 117.647% */
+}
+
+.form-message-layout {
+  width: 327px;
+  height: 170px;
+  flex-shrink: 0;
+  padding: 15px 38px 15px 16px;
+  border-radius: 8px;
+  border: 0px solid #cfd8dc;		/* #CFD8DC */
+  background: #fff;		/* #FFFFFF */
+}
+
+.form-message-text-style {
+  width: 273px;
+  height: 140px;
+  flex-shrink: 0;
+  color: #b3bac5;		/* #B3BAC5 */
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;	/* 160% */
+}
+
+.form-submit-layout {
+  display: inline-flex;
+  padding: 12px 16px;
+  align-items: center;
+  border-radius: 8px;
+  background: #fff;		/* #FFFFFF */
+}
+
+.form-submit-text-style {
+  color: #6070ff;		/* #6070FF */
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;	/* 141.176% */
+  letter-spacing: 0.51px;
 }
 
 /* Header / 2 */
@@ -832,8 +910,3 @@ dl.tech-menu > dt {
   line-height: 24px;	/* 120% */
 }
 
-#contact-me {
-  width: 375px;
-  height: 1000px;
-  flex-shrink: 0;
-}
