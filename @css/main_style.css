@@ -484,6 +484,10 @@ dl.tech-menu > dt {
   background: #f7f7f9;	/* #F7F7F9 */
 }
 
+.null-padding {
+  padding: 0 ;
+}
+
 .r-margin-8px {
   margin-right: 8px;
 }
