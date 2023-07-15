@@ -40,8 +40,8 @@
   /* --global-page-height: 750px; */
 
   /* Separator values */
-  /* --separator-width: var(--global-page-width); */
-  /* --separator-height: 114px; */
+  --separator-width: var(--global-page-width);
+  --separator-height: 114px;
 
   /* Section 1 */
   /* --section_1-width: 375px; */
@@ -58,8 +58,8 @@
   /* Workcard */
   /* --workcard-width: 327px; */
   /* --workcard-height: 596px; */
-  /* --workcard-padding-left: 24px; */
-  /* --workcard-padding-right: 24px; */
+  --workcard-padding-left: 24px;
+  --workcard-padding-right: 24px;
 
   /* Workcard image */
   --works-img-height: 295px;
@@ -237,7 +237,7 @@ div.main-body {
   height: 750px;
 }
 
-.flex-box {https://projects.microverse.datanet-pt.net/Personal-Portfolio/
+.flex-box {
   display: flex;
 }
 
