@@ -458,7 +458,6 @@ dl.tech-menu > dt {
   padding-top: 4px;
   padding-bottom: 4px;
   border-radius: 8px;
-  background-color: #ebebff;
   color: #6070ff;
 }
 
@@ -474,9 +473,15 @@ dl.tech-menu > dt {
 
 .prog-lang-layout {
   display: flex;
-  width: 215px;
+  min-width: 215px;
   flex-direction: column;
   justify-content: center;
+  gap: 12px;
+}
+
+.prog-lang-item-layout {
+  border-radius: 8px;
+  background: #f7f7f9;	/* #F7F7F9 */
 }
 
 .r-margin-8px {
