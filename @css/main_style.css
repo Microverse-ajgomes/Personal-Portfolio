@@ -680,6 +680,19 @@ dl.tech-menu > dt {
   line-height: 28px; 	/* 140% */
 }
 
+.form-name-layout {
+  width: 327px;
+  height: 48px;
+  flex-shrink: 0;
+  padding: 15px 38px 15px 16px;
+}
+
+.form-name-text-style {
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;		/* #CFD8DC */
+  background: #FFF;
+}
+
 /* Header / 2 */
 
 /* END of usual CSS classes */
