@@ -815,6 +815,7 @@ dl.tech-menu > dt {
   padding: 0 24px 114px 24px;
   align-items: center;
   gap: 88px;
+  background: white;
 }
 
 #contact-me {
