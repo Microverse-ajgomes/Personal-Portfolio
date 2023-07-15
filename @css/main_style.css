@@ -648,6 +648,40 @@ dl.tech-menu > dt {
   height: 24px;
 }
 
+.contact-me-header-layout {
+  width: 801px;
+  height: 56px;
+  flex-shrink: 0;
+}
+
+.contact-me-header-text-style {
+  color: #fff;			/* #FFFFFF */
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;	/* 130% */
+}
+
+.contact-me-text-layout {
+  width: 327px;
+  height: 137px;
+  flex-shrink: 0;
+}
+
+.contact-me-text-text-style {
+  color: #ebebff;		/* #EBEBFF */
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; 	/* 140% */
+}
+
+/* Header / 2 */
+
 /* END of usual CSS classes */
 
 /* ******* *
@@ -689,6 +723,7 @@ dl.tech-menu > dt {
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 375px;
   height: 779px;
   padding-left: 40px;
   padding-right: 40px;
