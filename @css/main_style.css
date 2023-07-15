@@ -838,6 +838,7 @@ dl.tech-menu > dt {
   flex-direction: column;
   align-items: center;
   gap: 88px;
+  background: whitesmoke;
 }
 
 #work_card_1 {
