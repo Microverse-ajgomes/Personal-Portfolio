@@ -831,3 +831,9 @@ dl.tech-menu > dt {
   font-weight: 500;
   line-height: 24px;	/* 120% */
 }
+
+#contact-me {
+  width: 375px;
+  height: 779px;
+  flex-shrink: 0;
+}
