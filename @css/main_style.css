@@ -812,7 +812,7 @@ dl.tech-menu > dt {
 }
 
 #about-myself {
-  padding: 0 24px 114px 24px;
+  padding: 114px 24px 114px 24px;
   align-items: center;
   gap: 88px;
   background: whitesmoke;
