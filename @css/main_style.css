@@ -455,13 +455,22 @@ dl.tech-menu > dt {
 }
 
 .prog-lang-props {
-  color: #6070ff;		/* #6070FF */
+  color: #253858;		/* #253858 */
   font-family: Poppins, sans-serif;
-  font-size: 12px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 500;
-  line-height: 16px; /* 133.333% */
+  line-height: 20px; /* 133.333% */
   letter-spacing: 0.36px;
+}
+
+.prog-lang-layout {
+  display: flex;
+  width: 215px;
+  height: 24px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
 .r-margin-8px {
