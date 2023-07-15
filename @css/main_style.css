@@ -231,8 +231,6 @@ div.main-body {
 
 .flex-box {
   display: flex;
-  align-content: center;
-  justify-content: space-between;
 }
 
 .flex-box-inline {
@@ -326,6 +324,8 @@ div.main-body {
 .flex-space-evenly {
   justify-content: space-evenly;
 }
+
+.
 
 .border-bottom {
   border-bottom: 1px solid #dfe1e6;
