@@ -467,10 +467,8 @@ dl.tech-menu > dt {
 .prog-lang-layout {
   display: flex;
   width: 215px;
-  height: 24px;
   flex-direction: column;
   justify-content: center;
-  flex-shrink: 0;
 }
 
 .r-margin-8px {
