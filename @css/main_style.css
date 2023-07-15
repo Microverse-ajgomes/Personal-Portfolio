@@ -807,6 +807,8 @@ dl.tech-menu > dt {
 #about-myself-layout {
   padding: 0 0;
   gap: 24px;
+  border-top-right-radius: 80px;
+  background: whitesmoke;
 }
 
 #about-myself {
