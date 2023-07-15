@@ -686,7 +686,7 @@ dl.tech-menu > dt {
   flex-shrink: 0;
   padding: 15px 38px 15px 16px;
   border-radius: 8px;
-  border: 0px solid #cfd8dc;		/* #CFD8DC */
+  border: 0 solid #cfd8dc;		/* #CFD8DC */
   background: #fff;		/* #FFFFFF */
 }
 
@@ -711,7 +711,7 @@ dl.tech-menu > dt {
   flex-shrink: 0;
   padding: 15px 38px 15px 16px;
   border-radius: 8px;
-  border: 0px solid #cfd8dc;		/* #CFD8DC */
+  border: 0 solid #cfd8dc;		/* #CFD8DC */
   background: #fff;		/* #FFFFFF */
 }
 
@@ -736,7 +736,7 @@ dl.tech-menu > dt {
   flex-shrink: 0;
   padding: 15px 38px 15px 16px;
   border-radius: 8px;
-  border: 0px solid #cfd8dc;		/* #CFD8DC */
+  border: 0 solid #cfd8dc;		/* #CFD8DC */
   background: #fff;		/* #FFFFFF */
 }
 
@@ -909,4 +909,3 @@ dl.tech-menu > dt {
   font-weight: 500;
   line-height: 24px;	/* 120% */
 }
-
