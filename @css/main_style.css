@@ -808,14 +808,14 @@ dl.tech-menu > dt {
   padding: 0 0;
   gap: 24px;
   border-top-right-radius: 80px;
-  background: whitesmoke;
+  background: white;
 }
 
 #about-myself {
   padding: 0 24px 114px 24px;
   align-items: center;
   gap: 88px;
-  background: white;
+  background: whitesmoke;
 }
 
 #contact-me {
