@@ -805,10 +805,10 @@ dl.tech-menu > dt {
 }
 
 #about-myself-layout {
-  padding: 0 0;
-  gap: 24px;
+  padding: 0 24px;
   border-top-right-radius: 80px;
   background: white;
+  gap: 24px;
 }
 
 #about-myself {
