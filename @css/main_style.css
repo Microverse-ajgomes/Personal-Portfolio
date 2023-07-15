@@ -689,9 +689,10 @@ dl.tech-menu > dt {
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 588px;
+  height: 779px;
   padding-left: 40px;
   padding-right: 40px;
+  flex-shrink: 0;
 }
 
 #work-cards-section {
