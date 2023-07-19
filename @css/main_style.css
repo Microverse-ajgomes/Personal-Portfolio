@@ -734,7 +734,7 @@ dl.tech-menu > dt {
   line-height: 20px;	/* 117.647% */
 }
 
-.form-message-layout {
+.form-message-box-layout {
   min-width: 273px;
   height: 140px;
   flex-shrink: 0;
@@ -742,21 +742,6 @@ dl.tech-menu > dt {
   border-radius: 8px;
   border: 0 solid #cfd8dc;		/* #CFD8DC */
   background: #fff;		/* #FFFFFF */
-}
-
-.form-message-text-style {
-  color: #b3bac5;		/* #B3BAC5 */
-  font-family: Poppins, sans-serif;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;	/* 160% */
-}
-
-.form-message-box-layout {
-  min-width: 273px;
-  height: 140px;
-  flex-shrink: 0;
 }
 
 .form-message-box-text-style {
@@ -976,6 +961,8 @@ dl.tech-menu > dt {
 
 #form-text-message:valid {
   background-color: white;
+  color: black;
+  font-size: 17px;
 }
 
 /*
