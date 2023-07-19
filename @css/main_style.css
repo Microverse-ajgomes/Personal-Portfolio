@@ -926,3 +926,50 @@ dl.tech-menu > dt {
   font-weight: 500;
   line-height: 24px;	/* 120% */
 }
+
+#form-name {
+
+}
+
+#form-name:invalid {
+
+}
+
+#form-name:valid {
+
+}
+
+#form-email {
+
+}
+
+#form-email:invalid {
+
+}
+
+#form-email:valid {
+
+}
+
+#form-text-message {
+
+}
+
+#form-text-message:invalid {
+
+}
+
+#form-text-message:valid {
+
+}
+
+#submit-button {
+
+}
+
+#submit-button:invalid {
+
+}
+#submit-button:valids {
+
+}
