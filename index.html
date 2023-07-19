@@ -353,13 +353,13 @@ I’d love to help with it!</p>
                 <form action="https://formspree.io/f/xknlgopl" method="POST" class="flex-box vertical flex-center gap-24px" id="contact-me-form" >
                     
                     <!-- Contact Me form name field -->
-                    <input class="form-name-layout form-name-text-style" id="form-name" type="text" name="name" placeholder="Lorem Ipsum" />
+                    <input class="form-name-layout form-name-text-style" id="form-name" type="text" name="name" maxlength="50" placeholder="Lorem Ipsum" required />
                     
                     <!-- Contact Me form email field -->
-                    <input class="form-email-layout form-email-text-style" id="form-email" type="email" name="email" placeholder="loremipsum@gmail.com" />
+                    <input class="form-email-layout form-email-text-style" id="form-email" type="email" name="email" placeholder="loremipsum@gmail.com" required />
                     
                     <!-- Contact Me form message -->
-                    <textarea class="form-message-layout form-message-text-style" id="form-text-message" type="text" name="message" placeholder="Write your message here..."></textarea>
+                    <textarea class="form-message-layout form-message-text-style" id="form-text-message" type="text" name="message" maxlength="500" required>Write your message here...</textarea>
 
                     <!-- Contact Me form submit button -->
                     <input class="form-submit-layout form-submit-text-style works-card-button " id="submit-button" type="submit" name="name" value="Get in touch" placeholder="Lorem Ipsum" />

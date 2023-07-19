@@ -928,48 +928,48 @@ dl.tech-menu > dt {
 }
 
 #form-name {
-
+  background-color: gray;
 }
 
 #form-name:invalid {
-
+  background-color: red;
 }
 
 #form-name:valid {
-
+  background-color: white;
 }
 
 #form-email {
-
+  background-color: gray;
 }
 
 #form-email:invalid {
-
+  background-color: red;
 }
 
 #form-email:valid {
-
+  background-color: white;
 }
 
 #form-text-message {
-
+  background-color: gray;
 }
 
 #form-text-message:invalid {
-
+  background-color: red;
 }
 
 #form-text-message:valid {
-
+  background-color: white;
 }
 
 #submit-button {
-
+  background-color: gray;
 }
 
 #submit-button:invalid {
-
+  background-color: red;
 }
 #submit-button:valids {
-
+  background-color: white;
 }
