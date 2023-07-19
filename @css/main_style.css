@@ -964,16 +964,3 @@ dl.tech-menu > dt {
   color: black;
   font-size: 17px;
 }
-
-/*
-#submit-button {
-  background-color: gray;
-}
-
-#submit-button:invalid {
-  background-color: red;
-}
-#submit-button:valid {
-  background-color: white;
-}
-*/
