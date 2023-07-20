@@ -34,66 +34,19 @@
  * CSS Global variables declaration *
  * ******************************** */
 
-@import "main_root_definitions.css";
+@import "main/main_root_definitions.css";
 
 /* *************** *
  * Basic HTML tags *
  * *************** */
 
-html {
-  background: white;
-}
+@import "main/main_basic_html_tags.css";
 
-html:lang(for-stupid-linters) {
-  display: none;
-}
-
-title {
-  color: blue;
-  background-color: #00f;	/* #0000ff */
-}
-
-body {
-  color: blue;
-  background-color: #fff;	/* #ffffff */
-  margin: 0;
-  padding: 0;
-}
-
-h1 {
-  color: inherit;
-  background-color: inherit;
-}
-
-h2 {
-  color: inherit;
-  background-color: inherit;
-}
-
-h3 {
-  color: inherit;
-  background-color: inherit;
-}
-
-h4 {
-  color: inherit;
-  background-color: inherit;
-}
-
-p {
-  color: inherit;
-  background-color: inherit;
-}
-
-ul {
-  color: inherit;
-  background-color: inherit;
-}
-
-li {
-  color: inherit;
-  background-color: inherit;
-}
+/* ********** *
+ * CSS Layers *
+ * ********** */
+ 
+@import "main/main_layers.css";
 
 /* ******************* *
  * CSS Media Selectors *
