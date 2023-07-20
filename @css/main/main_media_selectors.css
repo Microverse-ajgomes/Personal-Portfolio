@@ -28,61 +28,25 @@
 
 ************************************************************************************************************************/
 
-/* *************** *
- * Basic HTML tags *
- * *************** */
+/* ******************* *
+ * CSS Media Selectors *
+ * ******************* */
 
-html {
-  background: white;
+@media (min-width: 375px) and (max-width: 768px) {
+  header {
+    left: 0;
+    right: 0;
+  }
 }
 
-html:lang(for-stupid-linters) {
-  display: none;
-}
+@media (min-width: 769px) {
+  header {
+    box-sizing: border-box;
+    left: 0;
+    width: 768px;
+  }
 
-title {
-  color: blue;
-  background-color: #00f;       /* #0000ff */
-}
-
-body {
-  color: blue;
-  background-color: #fff;       /* #ffffff */
-  margin: 0;
-  padding: 0;
-}
-
-h1 {
-  color: inherit;
-  background-color: inherit;
-}
-
-h2 {
-  color: inherit;
-  background-color: inherit;
-}
-
-h3 {
-  color: inherit;
-  background-color: inherit;
-}
-
-h4 {
-  color: inherit;
-  background-color: inherit;
-}
-
-p {
-  color: inherit;
-  background-color: inherit;
-}
-
-ul {
-  color: inherit;
-  background-color: inherit;
-}
-
-li {
-  color: inherit;
-  background-color: inherit;
+  body {
+    width: 768px;
+  }
 }

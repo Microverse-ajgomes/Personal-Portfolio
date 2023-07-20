@@ -45,31 +45,14 @@
 /* ********** *
  * CSS Layers *
  * ********** */
- 
+
 @import "main/main_layers.css";
 
 /* ******************* *
  * CSS Media Selectors *
  * ******************* */
 
-@media (min-width: 375px) and (max-width: 768px) {
-  header {
-    left: 0;
-    right: 0;
-  }
-}
-
-@media (min-width: 769px) {
-  header {
-    box-sizing: border-box;
-    left: 0;
-    width: 768px;
-  }
-
-  body {
-    width: 768px;
-  }
-}
+@import "main/main_media_selectors.css";
 
 /* ******************** *
  * Semantic HTML 5 tags *
