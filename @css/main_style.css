@@ -34,31 +34,7 @@
  * CSS Global variables declaration *
  * ******************************** */
 
-:root {
-  /* Global page values */
-
-  /* Separator values */
-  --separator-width: var(--global-page-width);
-  --separator-height: 114px;
-
-  /* Section 1 */
-
-  /* Section 2 */
-
-  /* Workcard */
-  --workcard-padding-left: 24px;
-  --workcard-padding-right: 24px;
-
-  /* Workcard image */
-  --works-img-height: 295px;
-  --works-img-width: 220px;
-
-  /* WORKS section */
-  --works-section-width: 375px;
-  --works-section-height: 588px;
-  --works-section-padding-left: 24px;
-  --works-section-padding-right: 24px;
-}
+@include "main_root_definitions.css";
 
 /* *************** *
  * Basic HTML tags *
