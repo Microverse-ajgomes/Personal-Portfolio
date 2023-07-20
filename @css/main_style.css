@@ -34,7 +34,7 @@
  * CSS Global variables declaration *
  * ******************************** */
 
-@include "main_root_definitions.css";
+@import "main_root_definitions.css";
 
 /* *************** *
  * Basic HTML tags *
