@@ -824,6 +824,7 @@ dl.tech-menu > dt {
   background-size: cover;
   height: 850px;
 }
+
 #contact-me {
   padding: 0 40px;
   padding-bottom: 8px;
@@ -996,8 +997,7 @@ dl.tech-menu > dt {
   font-size: 17px;
 }
 
-#footer-main
-{
+#footer-main {
   background-color: #6070ff;
   padding-bottom: 8px;
 }
