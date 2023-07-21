@@ -36,22 +36,22 @@
  * Semantic HEADER section *
  * *********************** */
 
-@import "main/semantic_tags/header/header_main.css";
+@import "header/header_main.css";
 
 /* ******************** *
  * Semantic NAV section *
  * ******************** */
 
-@import "main/semantic_tags/nav/nav_main.css";
+@import "nav/nav_main.css";
 
 /* *************************** *
  * Semantic SECTION section(s) *
  * *************************** */
 
-@import "main/semantic_tags/section/section_main.css";
+@import "section/section_main.css";
 
 /* *********************** *
  * Semantic FOOTER section *
  * *********************** */
 
-@import "main/semantic_tags/footer/footer_main.css";
+@import "footer/footer_main.css";
