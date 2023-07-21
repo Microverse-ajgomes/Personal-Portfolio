@@ -935,8 +935,12 @@ dl.tech-menu > dt {
 }
 
 #form-name:invalid {
-  background-color: red;
+  background-color: pink;
   color: white;
+}
+
+#form-name:placeholder-shown {
+  background-color: white;
 }
 
 #form-name:valid {
@@ -953,8 +957,12 @@ dl.tech-menu > dt {
   background-color: white;
 }
 
+#form-email:placeholder-shown {
+  background-color: white;
+}
+
 #form-email:invalid {
-  background-color: red;
+  background-color: pink;
   color: white;
 }
 
@@ -972,8 +980,12 @@ dl.tech-menu > dt {
   background-color: white;
 }
 
+#form-text-message:placeholder-shown {
+  background-color: white;
+}
+
 #form-text-message:invalid {
-  background-color: red;
+  background-color: pink;
   color: white;
 }
 
