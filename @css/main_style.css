@@ -996,6 +996,11 @@ dl.tech-menu > dt {
   font-size: 17px;
 }
 
+#footer-main
+{
+  background-color: #6070ff;
+}
+
 .bottom-bar-layout {
   width: 134px;
   height: 5px;
