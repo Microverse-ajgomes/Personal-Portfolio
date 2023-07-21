@@ -994,3 +994,19 @@ dl.tech-menu > dt {
   color: black;
   font-size: 17px;
 }
+
+.bottom-bar-layout {
+  width: 134px;
+  height: 5px;
+  flex-shrink: 0;
+}
+
+.bottom-bar-style {
+  border-radius: 10px;
+  background: #0d151e;
+}
+
+#bottom-bar {
+  color: #0d151e;
+  margin: 21px 121px 8px 120px;
+}
