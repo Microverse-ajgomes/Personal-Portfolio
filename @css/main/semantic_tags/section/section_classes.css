@@ -28,32 +28,11 @@
 
 ************************************************************************************************************************/
 
-/* ********************* *
- *                       *
- * Semantic SECTION tags *
- *                       *
- * ********************* */
+/* ************************ *
+ * Semantic SECTION Classes *
+ * ************************ */
 
-/* *********** *
- * SECTION tag *
- * *********** */
-
-@import "section_tag.css";
-
-/* ************************** *
- * SECTION compound selectors *
- * ************************** */
-
-@import "section_compound.css";
-
-/* *************** *
- * SECTION Classes *
- * *************** */
-
-@import "section_classes.css";
-
-/* *********** *
- * SECTION IDs *
- * *********** */
-
-@import "section_IDs.css";
+.section-main {
+  color: inherit;
+  background-color: inherit;
+}
