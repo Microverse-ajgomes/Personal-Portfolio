@@ -28,32 +28,16 @@
 
 ************************************************************************************************************************/
 
-/* ******************** *
- *                      *
- * Semantic HEADER tags *
- *                      *
- * ******************** */
+/* ******************* *
+ * Semantic HEADER tag *
+ * ******************* */
 
-/* ********** *
- * HEADER tag *
- * ********** */
-
-@import "header_tag.css";
-
-/* ************************* *
- * HEADER compound selectors *
- * ************************* */
-
-@import "header_compound.css";
-
-/* ************** *
- * HEADER Classes *
- * ************** */
-
-@import "header_classes.css";
-
-/* ********** *
- * HEADER IDs *
- * ********** */
-
-@import "header_IDs.css";
+header {
+  color: inherit;
+  background-color: inherit;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 10px;
+}
