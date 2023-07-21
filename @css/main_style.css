@@ -919,13 +919,18 @@ dl.tech-menu > dt {
 }
 
 #form-name {
-  background-color: gray;
+  background-color: white;
   color: #172b4d;
   font-family: Poppins, sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
+}
+
+/* Show red borders when filled, but invalid */
+#form-name:not(:placeholder-shown) {
+  border-color: hsl(0, 76%, 50%);
 }
 
 #form-name:invalid {
@@ -938,7 +943,12 @@ dl.tech-menu > dt {
 }
 
 #form-email {
-  background-color: gray;
+  background-color: white;
+}
+
+/* Show red borders when filled, but invalid */
+#form-email:not(:placeholder-shown) {
+  border-color: hsl(0, 76%, 50%);
 }
 
 #form-email:invalid {
@@ -951,7 +961,12 @@ dl.tech-menu > dt {
 }
 
 #form-text-message {
-  background-color: gray;
+  background-color: white;
+}
+
+/* Show red borders when filled, but invalid */
+#form-text-message:not(:placeholder-shown) {
+  border-color: hsl(0, 76%, 50%);
 }
 
 #form-text-message:invalid {
