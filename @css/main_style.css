@@ -82,6 +82,7 @@ body {
   background-color: #fff;
   margin: 0;
   padding: 0;
+  min-width: 327px;
 }
 
 h1 {
@@ -658,7 +659,6 @@ dl.tech-menu > dt {
 }
 
 .contact-me-header-layout {
-  min-width: 327px;
   height: 56px;
   padding-top: 150px;
   flex-shrink: 0;
@@ -675,7 +675,6 @@ dl.tech-menu > dt {
 }
 
 .contact-me-text-layout {
-  min-width: 327px;
   height: 137px;
   flex-shrink: 0;
 }
@@ -692,7 +691,6 @@ dl.tech-menu > dt {
 
 .form-name-layout {
   display: flex;
-  min-width: 327px;
   height: 18px;
   flex-direction: column;
   justify-content: center;
@@ -819,12 +817,14 @@ dl.tech-menu > dt {
   background: whitesmoke;
 }
 
-#contact-me {
-  background-image: url("../@images/contact-me_background.png");
+#contact-me-section {
+  background-image: url("../@images/contact-me_background.svg");
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: cover;
   height: 850px;
+}
+#contact-me {
   padding: 0 40px;
   padding-bottom: 8px;
 }
