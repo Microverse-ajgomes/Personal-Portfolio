@@ -1,4 +1,6 @@
-## Copyright 2023, [Ant&oacute;nio Jos&eacute; Gomes](https://www.linkedin.com/in/ajffg1024)
+# MIT License
+
+## Copyright (c) 2023, [Ant&oacute;nio Jos&eacute; Gomes](https://www.linkedin.com/in/ajffg1024)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this [Personal Portfolio][Project] and associated documentation files, to deal in the [Personal Portfolio][Project] without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the [Personal Portfolio][Project], and to permit persons to whom the [Personal Portfolio][Project] is furnished to do so, subject to the following conditions:
 
