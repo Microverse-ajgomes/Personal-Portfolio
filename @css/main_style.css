@@ -64,18 +64,6 @@
  * Compund CSS Selectors *
  * ********************* */
 
-nav > ul {
-  padding: 0;
-}
-
-nav > ul > li {
-  color: inherit;
-  background-color: inherit;
-  list-style: none;
-  padding-left: 3em;
-  padding-right: 3em;
-}
-
 div.main-body {
   min-height: 100vh;
 }

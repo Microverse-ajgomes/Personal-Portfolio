@@ -28,32 +28,11 @@
 
 ************************************************************************************************************************/
 
-/* ***************** *
- *                   *
- * Semantic NAV tags *
- *                   *
- * ***************** */
+/* **************** *
+ * Semantic NAV IDs *
+ * **************** */
 
-/* ******* *
- * NAV tag *
- * ******* */
-
-@import "nav_tag.css";
-
-/* ********************** *
- * NAV compound selectors *
- * ********************** */
- 
-@import "nav_compound.css";
-
-/* *********** *
- * NAV Classes *
- * *********** */
-
-@import "nav_classes.css";
-
-/* ******* *
- * NAV IDs *
- * ******* */
- 
-@import "nav_IDs.css";
+#nav-menu {
+  color: inherit;
+  background-color: inherit;
+}
