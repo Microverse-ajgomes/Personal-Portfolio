@@ -931,6 +931,7 @@ dl.tech-menu > dt {
 /* Show red borders when filled, but invalid */
 #form-name:not(:placeholder-shown) {
   border-color: hsl(0, 76%, 50%);
+  background-color: white;
 }
 
 #form-name:invalid {
@@ -949,6 +950,7 @@ dl.tech-menu > dt {
 /* Show red borders when filled, but invalid */
 #form-email:not(:placeholder-shown) {
   border-color: hsl(0, 76%, 50%);
+  background-color: white;
 }
 
 #form-email:invalid {
@@ -967,6 +969,7 @@ dl.tech-menu > dt {
 /* Show red borders when filled, but invalid */
 #form-text-message:not(:placeholder-shown) {
   border-color: hsl(0, 76%, 50%);
+  background-color: white;
 }
 
 #form-text-message:invalid {
