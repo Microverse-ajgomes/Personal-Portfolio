@@ -957,13 +957,13 @@ dl.tech-menu > dt {
   background-color: white;
 }
 
-#form-email:placeholder-shown {
-  background-color: white;
-}
-
 #form-email:invalid {
   background-color: pink;
   color: white;
+}
+
+#form-email:placeholder-shown {
+  background-color: white;
 }
 
 #form-email:valid {
@@ -980,13 +980,13 @@ dl.tech-menu > dt {
   background-color: white;
 }
 
-#form-text-message:placeholder-shown {
-  background-color: white;
-}
-
 #form-text-message:invalid {
   background-color: pink;
   color: white;
+}
+
+#form-text-message:placeholder-shown {
+  background-color: white;
 }
 
 #form-text-message:valid {
