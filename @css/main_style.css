@@ -826,6 +826,7 @@ dl.tech-menu > dt {
   background-size: cover;
   height: 850px;
   padding: 0 40px;
+  padding-bottom: 8px;
 }
 
 #work-cards-section {
@@ -1008,5 +1009,5 @@ dl.tech-menu > dt {
 
 #bottom-bar {
   color: #0d151e;
-  margin: 21px 121px 8px 120px;
+  margin: 21px auto 0 auto;
 }
