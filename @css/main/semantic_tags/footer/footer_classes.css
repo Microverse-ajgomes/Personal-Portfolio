@@ -28,32 +28,11 @@
 
 ************************************************************************************************************************/
 
-/* ******************** *
- *                      *
- * Semantic FOOTER tags *
- *                      *
- * ******************** */
+/* *********************** *
+ * Semantic FOOTER Classes *
+ * *********************** */
 
-/* ********** *
- * FOOTER tag *
- * ********** */
-
-@import "footer_tag.css";
-
-/* ************************* *
- * FOOTER compound selectors *
- * ************************* */
-
-@import "footer_compound.css";
-
-/* ************** *
- * FOOTER Classes *
- * ************** */
-
-@import "footer_classes.css";
-
-/* ********** *
- * FOOTER IDs *
- * ********** */
-
-@import "footer_IDs.css";
+.footer-main {
+  color: inherit;
+  background-color: inherit;
+}
