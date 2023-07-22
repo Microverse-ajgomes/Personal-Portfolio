@@ -28,48 +28,90 @@
 
 ************************************************************************************************************************/
 
-/* ******************* *
- *                     *
- * CSS Media Selectors *
- *                     *
- * ******************* */
+/* ********************** *
+ * CSS Framework Elements *
+ * ---------------------- *
+ * AJFFG -- (c) 2023      *
+ * ********************** */
 
-/* For mobile version */
+/* ******************** *
+ * CSS Flex BOX classes *
+ * ******************** */
 
-@media (min-width: 375px) and (max-width: 767px) {
-  header {
-    left: 0;
-    right: 0;
-  }
-  
-  .display-mobile-menu {
-    display: flex;
-  }
-  
-  .display-desktop-menu {
-    display: none;
-  }
+/* Display modes */
+
+.flex-box {
+  display: flex;
 }
 
-/* For desktop version */
+.flex-box-inline {
+  display: inline-flex;
+}
 
-@media (min-width: 768px) {
-  header {
-    box-sizing: border-box;
-    left: 0;
-    width: 768px;
-  }
+.flex-box-center {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
 
-  body {
-    width: 768px;
-  }
+/* FLEX classes */
 
-  .display-mobile-menu {
-    display: none;
-  }
-   
-  .display-desktop-menu {
-     display: flex;
-     flex-direction: row;
-  }
+.horizontal {
+  flex-direction: row;
+}
+
+.vertical {
+  flex-direction: column;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.flex-wrap-inherit {
+  flex-wrap: inherit;
+}
+
+.flex-wrap-initial {
+  flex-wrap: initial;
+}
+
+.flex-wrap-revert {
+  flex-wrap: initial;
+}
+
+.flex-wrap-unset {
+  flex-wrap: unset;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.flex-space-around {
+  justify-content: space-around;
+}
+
+.flex-space-evenly {
+  justify-content: space-evenly;
 }

@@ -82,106 +82,6 @@
  * OLD structure selectors *
  * *********************** */
 
-.flex-box {
-  display: flex;
-}
-
-.flex-box-inline {
-  display: inline-flex;
-}
-
-.flex-box-center {
-  display: flex;
-  align-content: center;
-  justify-content: space-between;
-}
-
-.grid-box {
-  display: grid;
-}
-
-.block-box {
-  display: block;
-}
-
-.inline {
-  display: inline;
-}
-
-.inline-block {
-  display: inline-block;
-}
-
-.invisible {
-  display: none;
-}
-
-/* FLEX classes */
-
-.horizontal {
-  flex-direction: row;
-}
-
-.vertical {
-  flex-direction: column;
-}
-
-.flex-start {
-  justify-content: flex-start;
-}
-
-.flex-end {
-  justify-content: flex-end;
-}
-
-.flex-wrap {
-  flex-wrap: wrap;
-}
-
-.flex-nowrap {
-  flex-wrap: nowrap;
-}
-
-.flex-wrap-reverse {
-  flex-wrap: wrap-reverse;
-}
-
-.flex-wrap-inherit {
-  flex-wrap: inherit;
-}
-
-.flex-wrap-initial {
-  flex-wrap: initial;
-}
-
-.flex-wrap-revert {
-  flex-wrap: initial;
-}
-
-.flex-wrap-unset {
-  flex-wrap: unset;
-}
-
-.flex-center {
-  justify-content: center;
-}
-
-.flex-space-between {
-  justify-content: space-between;
-}
-
-.flex-space-around {
-  justify-content: space-around;
-}
-
-.flex-space-evenly {
-  justify-content: space-evenly;
-}
-
-.border-bottom {
-  border-bottom: 1px solid #dfe1e6;
-}
-
 dl.tech-menu > dt {
   font-weight: 500;
   font-size: 20px;
@@ -198,36 +98,16 @@ dl.tech-menu > dt {
 
 /* START of usual CSS classes */
 
+.border-bottom {
+  border-bottom: 1px solid #dfe1e6;
+}
+
 .align-items-center {
   align-items: center;
 }
 
 .no-bullet {
   list-style: none;
-}
-
-.null-padding {
-  padding: 0;
-}
-
-.no-padding {
-  padding: 0;
-}
-
-.no-padding-left {
-  padding-left: 0;
-}
-
-.no-padding-right {
-  padding-right: 0;
-}
-
-.no-padding-top {
-  padding-top: 0;
-}
-
-.no-padding-bottom {
-  padding-bottom: 0;
 }
 
 .works-img-size {

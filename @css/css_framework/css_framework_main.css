@@ -28,48 +28,44 @@
 
 ************************************************************************************************************************/
 
-/* ******************* *
- *                     *
- * CSS Media Selectors *
- *                     *
- * ******************* */
+/* ********************** *
+ * CSS Framework Elements *
+ * ---------------------- *
+ * AJFFG -- (c) 2023      *
+ * ********************** */
 
-/* For mobile version */
+/* ******************** *
+ * CSS Flex BOX classes *
+ * ******************** */
 
-@media (min-width: 375px) and (max-width: 767px) {
-  header {
-    left: 0;
-    right: 0;
-  }
-  
-  .display-mobile-menu {
-    display: flex;
-  }
-  
-  .display-desktop-menu {
-    display: none;
-  }
-}
+@import "flex-box/Flex_BOX_classes.css";
 
-/* For desktop version */
+/* ******************** *
+ * CSS Grid BOX classes *
+ * ******************** */
 
-@media (min-width: 768px) {
-  header {
-    box-sizing: border-box;
-    left: 0;
-    width: 768px;
-  }
+@import "grid-box/Grid_BOX_classes.css";
 
-  body {
-    width: 768px;
-  }
+/* ********************* *
+ * CSS BLOCK BOX classes *
+ * ********************* */
 
-  .display-mobile-menu {
-    display: none;
-  }
-   
-  .display-desktop-menu {
-     display: flex;
-     flex-direction: row;
-  }
-}
+@import "block-box/Block_BOX_classes.css";
+
+/* ********************** *
+ * CSS INLINE BOX classes *
+ * ********************** */
+
+@import "inline-box/Inline_BOX_classes.css";
+
+/* ************************* *
+ * CSS INVISIBLE BOX classes *
+ * ************************* */
+
+@import "invisible-box/Invisible_BOX_classes.css";
+
+/* ******************************* *
+ * Unspecified generic CSS Classes *
+ * ******************************* */
+
+@import "unspecified/general_CSS_classes.css";

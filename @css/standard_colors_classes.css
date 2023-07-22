@@ -28,10 +28,10 @@
 
 ************************************************************************************************************************/
 
-/* ******************************* *
- *                                 *
- * CSS Classes for Standard Colors *
- *                                 *
- * ******************************* */
+/* ********************* *
+ *                       *
+ * CSS Framework Classes *
+ *                       *
+ * ********************* */
 
-@import standard_color_classes/standard_color_classes_main.css
+@import "standard_color_classes/standard_color_classes_main.css";

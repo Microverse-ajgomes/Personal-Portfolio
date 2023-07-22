@@ -28,48 +28,40 @@
 
 ************************************************************************************************************************/
 
-/* ******************* *
- *                     *
- * CSS Media Selectors *
- *                     *
- * ******************* */
+/* ********************** *
+ * CSS Framework Elements *
+ * ---------------------- *
+ * AJFFG -- (c) 2023      *
+ * ********************** */
 
-/* For mobile version */
+/* *************************** *
+ * Unspecified General classes *
+ * *************************** */
 
-@media (min-width: 375px) and (max-width: 767px) {
-  header {
-    left: 0;
-    right: 0;
-  }
-  
-  .display-mobile-menu {
-    display: flex;
-  }
-  
-  .display-desktop-menu {
-    display: none;
-  }
+/* Display modes */
+
+.null-padding {
+  padding: 0;
 }
 
-/* For desktop version */
-
-@media (min-width: 768px) {
-  header {
-    box-sizing: border-box;
-    left: 0;
-    width: 768px;
-  }
-
-  body {
-    width: 768px;
-  }
-
-  .display-mobile-menu {
-    display: none;
-  }
-   
-  .display-desktop-menu {
-     display: flex;
-     flex-direction: row;
-  }
+.no-padding {
+  padding: 0;
 }
+
+.no-padding-left {
+  padding-left: 0;
+}
+
+.no-padding-right {
+  padding-right: 0;
+}
+
+.no-padding-top {
+  padding-top: 0;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0;
+}
+
+/* BLOCK classes */
