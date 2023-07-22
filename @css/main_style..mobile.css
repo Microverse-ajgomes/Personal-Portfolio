@@ -36,7 +36,7 @@
  *   max-width = 767px    *
  * ********************** */
 
-@import "main_style..mobile.css";
+@import "main_style.css";
 
 html::before {
   content: "Mobile version";
