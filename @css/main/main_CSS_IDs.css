@@ -35,7 +35,7 @@
  * ******* */
 
 #section_1 {
-  background-image: url("../@images/section-1_background.jpeg");
+  background-image: url("../../@images/section-1_background.jpeg");
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: cover;
@@ -72,7 +72,7 @@
 }
 
 #contact-me-section {
-  background-image: url("../@images/contact-me_background.svg");
+  background-image: url("../../@images/contact-me_background.svg");
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: cover;
