@@ -29,9 +29,17 @@
 ************************************************************************************************************************/
 
 /* ******************************* *
- *                                 *
- * CSS Classes for Standard Colors *
- *                                 *
+ * Semantic NAV compound selectors *
  * ******************************* */
 
-@import standard_color_classes/standard_color_classes_main.css
+nav > ul {
+  padding: 0;
+}
+
+nav > ul > li {
+  color: inherit;
+  background-color: inherit;
+  list-style: none;
+  padding-left: 3em;
+  padding-right: 3em;
+}

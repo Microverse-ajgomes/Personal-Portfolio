@@ -28,10 +28,11 @@
 
 ************************************************************************************************************************/
 
-/* ******************************* *
- *                                 *
- * CSS Classes for Standard Colors *
- *                                 *
- * ******************************* */
+/* *********************** *
+ * Semantic FOOTER Classes *
+ * *********************** */
 
-@import standard_color_classes/standard_color_classes_main.css
+.footer-main {
+  color: inherit;
+  background-color: inherit;
+}

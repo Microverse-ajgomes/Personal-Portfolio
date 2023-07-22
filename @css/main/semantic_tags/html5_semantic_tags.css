@@ -28,10 +28,30 @@
 
 ************************************************************************************************************************/
 
-/* ******************************* *
- *                                 *
- * CSS Classes for Standard Colors *
- *                                 *
- * ******************************* */
+/* ************************ *
+ * Semantic HTML 5 Sections *
+ * ************************ */
 
-@import standard_color_classes/standard_color_classes_main.css
+/* *********************** *
+ * Semantic HEADER section *
+ * *********************** */
+
+@import "header/header_main.css";
+
+/* ******************** *
+ * Semantic NAV section *
+ * ******************** */
+
+@import "nav/nav_main.css";
+
+/* *************************** *
+ * Semantic SECTION section(s) *
+ * *************************** */
+
+@import "section/section_main.css";
+
+/* *********************** *
+ * Semantic FOOTER section *
+ * *********************** */
+
+@import "footer/footer_main.css";

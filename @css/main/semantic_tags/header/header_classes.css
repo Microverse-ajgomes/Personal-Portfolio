@@ -28,10 +28,11 @@
 
 ************************************************************************************************************************/
 
-/* ******************************* *
- *                                 *
- * CSS Classes for Standard Colors *
- *                                 *
- * ******************************* */
+/* *********************** *
+ * Semantic HEADER Classes *
+ * *********************** */
 
-@import standard_color_classes/standard_color_classes_main.css
+.header-main {
+  color: inherit;
+  background-color: inherit;
+}

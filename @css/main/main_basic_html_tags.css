@@ -28,10 +28,64 @@
 
 ************************************************************************************************************************/
 
-/* ******************************* *
- *                                 *
- * CSS Classes for Standard Colors *
- *                                 *
- * ******************************* */
+/* *************** *
+ *                 *
+ * Basic HTML tags *
+ *                 *
+ * *************** */
 
-@import standard_color_classes/standard_color_classes_main.css
+html {
+  background: white;
+}
+
+html:lang(for-stupid-linters) {
+  display: none;
+}
+
+title {
+  color: blue;
+  background-color: #00f;
+}
+
+body {
+  min-width: 327px;
+  color: blue;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: inherit;
+  background-color: inherit;
+}
+
+h2 {
+  color: inherit;
+  background-color: inherit;
+}
+
+h3 {
+  color: inherit;
+  background-color: inherit;
+}
+
+h4 {
+  color: inherit;
+  background-color: inherit;
+}
+
+p {
+  color: inherit;
+  background-color: inherit;
+}
+
+ul {
+  color: inherit;
+  background-color: inherit;
+}
+
+li {
+  color: inherit;
+  background-color: inherit;
+}

@@ -28,10 +28,32 @@
 
 ************************************************************************************************************************/
 
-/* ******************************* *
- *                                 *
- * CSS Classes for Standard Colors *
- *                                 *
- * ******************************* */
+/* ******************** *
+ *                      *
+ * Semantic HEADER tags *
+ *                      *
+ * ******************** */
 
-@import standard_color_classes/standard_color_classes_main.css
+/* ********** *
+ * HEADER tag *
+ * ********** */
+
+@import "header_tag.css";
+
+/* ************************* *
+ * HEADER compound selectors *
+ * ************************* */
+
+@import "header_compound.css";
+
+/* ************** *
+ * HEADER Classes *
+ * ************** */
+
+@import "header_classes.css";
+
+/* ********** *
+ * HEADER IDs *
+ * ********** */
+
+@import "header_IDs.css";

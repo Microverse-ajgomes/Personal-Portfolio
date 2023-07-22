@@ -28,10 +28,11 @@
 
 ************************************************************************************************************************/
 
-/* ******************************* *
- *                                 *
- * CSS Classes for Standard Colors *
- *                                 *
- * ******************************* */
+/* ******************** *
+ * Semantic SECTION IDs *
+ * ******************** */
 
-@import standard_color_classes/standard_color_classes_main.css
+#section-main {
+  color: inherit;
+  background-color: inherit;
+}

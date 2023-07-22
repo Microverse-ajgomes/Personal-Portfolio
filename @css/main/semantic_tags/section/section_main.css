@@ -28,10 +28,32 @@
 
 ************************************************************************************************************************/
 
-/* ******************************* *
- *                                 *
- * CSS Classes for Standard Colors *
- *                                 *
- * ******************************* */
+/* ********************* *
+ *                       *
+ * Semantic SECTION tags *
+ *                       *
+ * ********************* */
 
-@import standard_color_classes/standard_color_classes_main.css
+/* *********** *
+ * SECTION tag *
+ * *********** */
+
+@import "section_tag.css";
+
+/* ************************** *
+ * SECTION compound selectors *
+ * ************************** */
+
+@import "section_compound.css";
+
+/* *************** *
+ * SECTION Classes *
+ * *************** */
+
+@import "section_classes.css";
+
+/* *********** *
+ * SECTION IDs *
+ * *********** */
+
+@import "section_IDs.css";

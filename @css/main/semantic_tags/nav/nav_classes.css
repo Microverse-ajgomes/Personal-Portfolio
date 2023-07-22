@@ -28,10 +28,11 @@
 
 ************************************************************************************************************************/
 
-/* ******************************* *
- *                                 *
- * CSS Classes for Standard Colors *
- *                                 *
- * ******************************* */
+/* ******************** *
+ * Semantic NAV Classes *
+ * ******************** */
 
-@import standard_color_classes/standard_color_classes_main.css
+.nav-main {
+  color: inherit;
+  background-color: inherit;
+}

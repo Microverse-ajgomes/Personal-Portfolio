@@ -28,10 +28,32 @@
 
 ************************************************************************************************************************/
 
-/* ******************************* *
- *                                 *
- * CSS Classes for Standard Colors *
- *                                 *
- * ******************************* */
+/* ***************** *
+ *                   *
+ * Semantic NAV tags *
+ *                   *
+ * ***************** */
 
-@import standard_color_classes/standard_color_classes_main.css
+/* ******* *
+ * NAV tag *
+ * ******* */
+
+@import "nav_tag.css";
+
+/* ********************** *
+ * NAV compound selectors *
+ * ********************** */
+
+@import "nav_compound.css";
+
+/* *********** *
+ * NAV Classes *
+ * *********** */
+
+@import "nav_classes.css";
+
+/* ******* *
+ * NAV IDs *
+ * ******* */
+
+@import "nav_IDs.css";
