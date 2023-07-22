@@ -64,6 +64,8 @@
  * Compund CSS Selectors *
  * ********************* */
 
+@import "main/compound_selectors/compound_selectors.css;
+
 div.main-body {
   min-height: 100vh;
 }
