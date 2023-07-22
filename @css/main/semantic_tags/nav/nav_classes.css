@@ -38,9 +38,9 @@
 }
 
 .display-mobile-menu {
-  display: none;
+  display: inherit;
 }
 
 .display-desktop-menu {
-  display: none;
+  display: inherit;
 }
