@@ -40,4 +40,6 @@
 
 html::before {
   content: "Desktop version";
+  position: fixed;
+  z-index: 1;
 }
