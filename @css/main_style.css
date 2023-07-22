@@ -683,13 +683,17 @@ dl.tech-menu > dt {
   background: whitesmoke;
 }
 
-#contact-me {
+#contact-me-section {
   background-image: url("../@images/contact-me_background.svg");
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: cover;
   height: 850px;
+}
+
+#contact-me {
   padding: 0 40px;
+  padding-bottom: 8px;
 }
 
 #work-cards-section {
