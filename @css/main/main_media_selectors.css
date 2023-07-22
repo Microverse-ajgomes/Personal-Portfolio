@@ -34,14 +34,26 @@
  *                     *
  * ******************* */
 
-@media (min-width: 375px) and (max-width: 768px) {
+/* For mobile version */
+
+@media (min-width: 375px) and (max-width: 767px) {
   header {
     left: 0;
     right: 0;
   }
+  
+  .display-mobile-menu {
+    display: flex;
+  }
+  
+  .display-desktop-menu {
+    display: none;
+  }
 }
 
-@media (min-width: 769px) {
+/* For desktop version */
+
+@media (min-width: 768px) {
   header {
     box-sizing: border-box;
     left: 0;
@@ -50,5 +62,14 @@
 
   body {
     width: 768px;
+  }
+
+  .display-mobile-menu {
+    display: none;
+  }
+   
+  .display-desktop-menu {
+     display: flex;
+     flex-direction: row;
   }
 }

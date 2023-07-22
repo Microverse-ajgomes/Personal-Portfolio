@@ -36,3 +36,11 @@
   color: inherit;
   background-color: inherit;
 }
+
+.display-mobile-menu {
+  display: none;
+}
+
+.display-desktop-menu {
+  display: none;
+}
