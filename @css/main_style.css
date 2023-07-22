@@ -42,11 +42,13 @@
 
 @import "main/main_basic_html_tags.css";
 
+
 /* ********** *
  * CSS Layers *
  * ********** */
 
 @import "main/main_layers.css";
+
 
 /* ******************* *
  * CSS Media Selectors *
@@ -386,7 +388,7 @@ dl.tech-menu > dt {
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;	/* 141.176% */
+  line-height: 24px;
   letter-spacing: 0.51px;
   background-color: #2230d2;
   border: 1px solid #2230d2;
@@ -539,7 +541,6 @@ dl.tech-menu > dt {
 }
 
 .contact-me-text-layout {
-  min-width: 327px;
   height: 137px;
   flex-shrink: 0;
 }
@@ -556,7 +557,6 @@ dl.tech-menu > dt {
 
 .form-name-layout {
   display: flex;
-  min-width: 327px;
   height: 18px;
   flex-direction: column;
   justify-content: center;
