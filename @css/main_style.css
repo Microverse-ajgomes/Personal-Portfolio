@@ -66,30 +66,6 @@
 
 @import "main/compound_selectors/compound_selectors.css;
 
-div.main-body {
-  min-height: 100vh;
-}
-
-#section_1 > div > ul {
-  padding-inline-start: 0;
-  column-gap: 15px;
-  margin: 0;
-}
-
-#section_1 > div > ul > li {
-  row-gap: 15px;
-}
-
-#about-myself-social-menu > div > ul {
-  padding-inline-start: 0;
-  column-gap: 15px;
-  margin: 0;
-}
-
-#about-myself-social-menu > div > ul > li {
-  row-gap: 15px;
-}
-
 /* ***************
  *  CSS Classes *
 ** **************/
