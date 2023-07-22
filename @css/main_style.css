@@ -265,39 +265,39 @@ dl.tech-menu > dt {
 }
 
 .work-title-props {
-  color: #172b4d;		/* #172B4D */
+  color: #172b4d;
   font-size: 32px;
   font-size: 16px;
   font-weight: 600;
   text-align: left;
-  line-height: 44px;	/* 137,5% */
+  line-height: 44px;
 }
 
 .client-name-props {
-  color: #344563;		/* #344563 */
+  color: #344563;
   font-family: Poppins, sans-serif;
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
-  line-height: 16px;	/* 123.077% */
+  line-height: 16px;
 }
 
 .work-name-props {
-  color: #7a869a;		/* #7A869A */
+  color: #7a869a;
   font-family: Poppins, sans-serif;
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
-  line-height: 16px;	/* 123.077% */
+  line-height: 16px;
 }
 
 .work-year-props {
-  color: #7a869a;		/* #7A869A */
+  color: #7a869a;
   font-family: Poppins, sans-serif;
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
-  line-height: 16px;	/* 123.077% */
+  line-height: 16px;
 }
 
 .work-card-text {
@@ -306,7 +306,7 @@ dl.tech-menu > dt {
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;	/* 160% */
+  line-height: 24px;
 }
 
 .prog-lang-list {
@@ -319,12 +319,12 @@ dl.tech-menu > dt {
 }
 
 .prog-lang-props {
-  color: #253858;		/* #253858 */
+  color: #253858;
   font-family: Poppins, sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
-  line-height: 20px; /* 133.333% */
+  line-height: 20px;
   letter-spacing: 0.36px;
 }
 
@@ -338,7 +338,7 @@ dl.tech-menu > dt {
 
 .prog-lang-item-layout {
   border-radius: 8px;
-  background: #f7f7f9;	/* #F7F7F9 */
+  background: #f7f7f9;
 }
 
 .r-margin-8px {
@@ -354,13 +354,13 @@ dl.tech-menu > dt {
 }
 
 .works-card-button {
-  color: #396df2;		/* 396DF2 */
+  color: #396df2;
   text-align: center;
   font-family: Poppins, sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;	/* 141.176% */
+  line-height: 24px;
   letter-spacing: 0.51px;
   border: 1px solid #7f8cff;
   border-radius: 8px;
@@ -373,7 +373,7 @@ dl.tech-menu > dt {
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;	/* 141.176% */
+  line-height: 24px;
   letter-spacing: 0.51px;
   background-color: #6070ff;
   border: 1px solid #6070ff;
@@ -400,7 +400,7 @@ dl.tech-menu > dt {
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;	/* 141.176% */
+  line-height: 24px;
   letter-spacing: 0.51px;
   border: 1px solid #e5e5e5;
   border-radius: 8px;
@@ -462,52 +462,52 @@ dl.tech-menu > dt {
 }
 
 .about-myself-heading-text-style {
-  color: #172b4d;		/* #172B4D */
+  color: #172b4d;
   font-family: Poppins, sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
-  line-height: 52px; 	/* 130% */
+  line-height: 52px;
 }
 
 .about-myself-text-style {
-  color: #344563;		/* #344563 */
+  color: #344563;
   font-family: Poppins, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; 	/* 150% */
+  line-height: 24px;
 }
 
 .lets-connect-text-style {
-  color: #7f8cff;		/* #7F8CFF */
+  color: #7f8cff;
   font-family: Poppins, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
 }
 
 .get-my-resumee-button {
-  color: #396df2;		/* #396DF2 */
+  color: #396df2;
   text-align: center;
   font-family: Poppins, sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;	/* 141.176% */
+  line-height: 24px;
   letter-spacing: 0.51px;
   border: 1px solid #7f8cff;
   border-radius: 8px;
 }
 
 .tech-menu-head-text-style {
-  color: #000;			/* #000000 */
+  color: #000;
   font-family: Poppins, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;	/* 120% */
+  line-height: 24px;
 }
 
 .tech-menu-head-text-layout {
@@ -529,13 +529,13 @@ dl.tech-menu > dt {
 }
 
 .contact-me-header-text-style {
-  color: #fff;			/* #FFFFFF */
+  color: #fff;
   text-align: center;
   font-family: Poppins, sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
-  line-height: 52px;	/* 130% */
+  line-height: 52px;
 }
 
 .contact-me-text-layout {
@@ -545,13 +545,13 @@ dl.tech-menu > dt {
 }
 
 .contact-me-text-text-style {
-  color: #ebebff;		/* #EBEBFF */
+  color: #ebebff;
   text-align: center;
   font-family: Poppins, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px; 	/* 140% */
+  line-height: 28px;
 }
 
 .form-name-layout {
@@ -563,17 +563,17 @@ dl.tech-menu > dt {
   flex-shrink: 0;
   padding: 15px 38px 15px 16px;
   border-radius: 8px;
-  border: 0 solid #cfd8dc;		/* #CFD8DC */
-  background: #fff;		/* #FFFFFF */
+  border: 0 solid #cfd8dc;
+  background: #fff;
 }
 
 .form-name-text-style {
-  color: #172b4d;		/* #172B4D */
+  color: #172b4d;
   font-family: Poppins, sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px;	/* 117.647% */
+  line-height: 20px;
 }
 
 .form-email-layout {
@@ -585,17 +585,17 @@ dl.tech-menu > dt {
   flex-shrink: 0;
   padding: 15px 38px 15px 16px;
   border-radius: 8px;
-  border: 0 solid #cfd8dc;		/* #CFD8DC */
-  background: #fff;		/* #FFFFFF */
+  border: 0 solid #cfd8dc;
+  background: #fff;
 }
 
 .form-email-text-style {
-  color: #172b4d;		/* #172B4D */
+  color: #172b4d;
   font-family: Poppins, sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px;	/* 117.647% */
+  line-height: 20px;
 }
 
 .form-message-box-layout {
@@ -604,17 +604,17 @@ dl.tech-menu > dt {
   flex-shrink: 0;
   padding: 15px 38px 15px 16px;
   border-radius: 8px;
-  border: 0 solid #cfd8dc;		/* #CFD8DC */
-  background: #fff;		/* #FFFFFF */
+  border: 0 solid #cfd8dc;
+  background: #fff;
 }
 
 .form-message-box-text-style {
-  color: #b3bac5;		/* #B3BAC5 */
+  color: #b3bac5;
   font-family: Poppins, sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;	/* 160% */
+  line-height: 24px;
 }
 
 .form-submit-layout {
@@ -624,17 +624,17 @@ dl.tech-menu > dt {
   padding: 12px 16px;
   align-items: center;
   border-radius: 8px;
-  background: #fff;		/* #FFFFFF */
+  background: #fff;
 }
 
 .form-submit-text-style {
-  color: #6070ff;		/* #6070FF */
+  color: #6070ff;
   text-align: center;
   font-family: Poppins, sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;	/* 141.176% */
+  line-height: 24px;
   letter-spacing: 0.51px;
 }
 
@@ -754,32 +754,32 @@ dl.tech-menu > dt {
 
 #languages {
   min-width: 237px;
-  color: #000;			/* #000000 */
+  color: #000;
   font-family: Poppins, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;	/* 120% */
+  line-height: 24px;
 }
 
 #frameworks {
   min-width: 237px;
-  color: #000;			/* #000000 */
+  color: #000;
   font-family: Poppins, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;	/* 120% */
+  line-height: 24px;
 }
 
 #skills {
   min-width: 237px;
-  color: #000;			/* #000000 */
+  color: #000;
   font-family: Poppins, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;	/* 120% */
+  line-height: 24px;
 }
 
 #form-name {
