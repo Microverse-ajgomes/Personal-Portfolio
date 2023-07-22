@@ -784,18 +784,28 @@ dl.tech-menu > dt {
 }
 
 #form-name {
-  background-color: gray;
-  color: #172b4d;		/* #172B4D */
+  background-color: white;
+  color: #172b4d;
   font-family: Poppins, sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px;	/* 117.647% */
+  line-height: 20px;
+}
+
+/* Show red borders when filled, but invalid */
+#form-name:not(:placeholder-shown) {
+  border-color: hsl(0, 76%, 50%);
+  background-color: white;
 }
 
 #form-name:invalid {
-  background-color: red;
+  background-color: pink;
   color: white;
+}
+
+#form-name:placeholder-shown {
+  background-color: white;
 }
 
 #form-name:valid {
@@ -803,12 +813,22 @@ dl.tech-menu > dt {
 }
 
 #form-email {
-  background-color: gray;
+  background-color: white;
+}
+
+/* Show red borders when filled, but invalid */
+#form-email:not(:placeholder-shown) {
+  border-color: hsl(0, 76%, 50%);
+  background-color: white;
 }
 
 #form-email:invalid {
-  background-color: red;
+  background-color: pink;
   color: white;
+}
+
+#form-email:placeholder-shown {
+  background-color: white;
 }
 
 #form-email:valid {
@@ -816,16 +836,47 @@ dl.tech-menu > dt {
 }
 
 #form-text-message {
-  background-color: gray;
+  background-color: white;
+}
+
+/* Show red borders when filled, but invalid */
+#form-text-message:not(:placeholder-shown) {
+  border-color: hsl(0, 76%, 50%);
+  background-color: white;
 }
 
 #form-text-message:invalid {
-  background-color: red;
+  background-color: pink;
   color: white;
+}
+
+#form-text-message:placeholder-shown {
+  background-color: white;
 }
 
 #form-text-message:valid {
   background-color: white;
   color: black;
   font-size: 17px;
+}
+
+#footer-main {
+  background-color: #6070ff;
+  padding-bottom: 8px;
+}
+
+.bottom-bar-layout {
+  width: 134px;
+  height: 5px;
+  flex-shrink: 0;
+}
+
+.bottom-bar-style {
+  border-radius: 10px;
+  background: #0d151e;
+}
+
+#bottom-bar {
+  color: #0d151e;
+  margin: 21px auto 0 auto;
 }
