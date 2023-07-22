@@ -38,7 +38,6 @@
 
 @import "main_style..mobile.css";
 
-/* Override html element background definition */
-html {
-  background-color: blue;
+html::before {
+  content: "Mobile version";
 }

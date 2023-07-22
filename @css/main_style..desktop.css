@@ -38,7 +38,6 @@
 
 @import "main_style..mobile.css";
 
-/* Override html element background definition */
-html {
-  background-color: red;
+html::before {
+  content: "Desktop version";
 }
