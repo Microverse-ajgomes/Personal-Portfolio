@@ -1,3 +1,4 @@
+
 /* **********************************************************************************************************************
  _______  _______  _______        _______ _________          _______ _________ ______
 (  ____ \(  ___  )(  ____ )      (  ____ \\__   __/|\     /|(  ____ )\__   __/(  __  \
@@ -28,10 +29,90 @@
 
 ************************************************************************************************************************/
 
-/* ********************* *
- *                       *
- * CSS Framework Classes *
- *                       *
- * ********************* */
+/* ********************** *
+ * CSS Framework Elements *
+ * ---------------------- *
+ * AJFFG -- (c) 2023      *
+ * ********************** */
 
-@import css_framework/css_framework_main.css
+/* ******************** *
+ * CSS Flex BOX classes *
+ * ******************** */
+ 
+/* Display modes */
+ 
+ .flex-box {
+  display: flex;
+}
+
+.flex-box-inline {
+  display: inline-flex;
+}
+
+.flex-box-center {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+/* FLEX classes */
+
+.horizontal {
+  flex-direction: row;
+}
+
+.vertical {
+  flex-direction: column;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.flex-wrap-inherit {
+  flex-wrap: inherit;
+}
+
+.flex-wrap-initial {
+  flex-wrap: initial;
+}
+
+.flex-wrap-revert {
+  flex-wrap: initial;
+}
+
+.flex-wrap-unset {
+  flex-wrap: unset;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.flex-space-around {
+  justify-content: space-around;
+}
+
+.flex-space-evenly {
+  justify-content: space-evenly;
+}

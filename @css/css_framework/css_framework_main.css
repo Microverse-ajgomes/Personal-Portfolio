@@ -28,10 +28,44 @@
 
 ************************************************************************************************************************/
 
+/* ********************** *
+ * CSS Framework Elements *
+ * ---------------------- *
+ * AJFFG -- (c) 2023      *
+ * ********************** */
+
+/* ******************** *
+ * CSS Flex BOX classes *
+ * ******************** */
+
+@import "flex-box/Flex_BOX_classes.css";
+
+/* ******************** *
+ * CSS Grid BOX classes *
+ * ******************** */
+
+@import "grid-box/Grid_BOX_classes.css";
+
 /* ********************* *
- *                       *
- * CSS Framework Classes *
- *                       *
+ * CSS BLOCK BOX classes *
  * ********************* */
 
-@import css_framework/css_framework_main.css
+@import "block-box/Block_BOX_classes.css";
+
+/* ********************** *
+ * CSS INLINE BOX classes *
+ * ********************** */
+
+@import "inline-box/Inline_BOX_classes.css";
+
+/* ************************* *
+ * CSS INVISIBLE BOX classes *
+ * ************************* */
+
+@import "invisible-box/Invisible_BOX_classes.css";
+
+/* ******************************* *
+ * Unspecified generic CSS Classes *
+ * ******************************* */
+
+@import "unspecified/general_CSS_classes.css";
