@@ -42,12 +42,13 @@ html:lang(for-stupid-linters) {
 
 title {
   color: blue;
-  background-color: #00f;       /* #0000ff */
+  background-color: #00f;
 }
 
 body {
+  min-width: 327px ;
   color: blue;
-  background-color: #fff;       /* #ffffff */
+  background-color: #fff;
   margin: 0;
   padding: 0;
 }

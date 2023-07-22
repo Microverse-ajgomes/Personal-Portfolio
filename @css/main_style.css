@@ -523,7 +523,6 @@ dl.tech-menu > dt {
 }
 
 .contact-me-header-layout {
-  min-width: 327px;
   height: 56px;
   padding-top: 150px;
   flex-shrink: 0;
@@ -685,7 +684,7 @@ dl.tech-menu > dt {
 }
 
 #contact-me {
-  background-image: url("../@images/contact-me_background.png");
+  background-image: url("../@images/contact-me_background.svg");
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: cover;
